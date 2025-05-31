@@ -1,0 +1,10 @@
+{
+  "name": "stonehope-wordpress",
+  "version": "1.0.0",
+  "description": "WordPress site for GitHub",
+  "scripts": {
+    "build": "echo 'No build step required for static WordPress files'"
+  },
+  "author": "",
+  "license": "ISC"
+}
