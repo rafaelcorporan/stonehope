@@ -1,0 +1,10 @@
+Using Our Cloud CMS Desktop Application
+ 
+Please Read: Download our CMS software on your PC that also contains all your mobile settings, including the app you need to view cameras from your phone or tablet. When you have the software installed, select your site and there is a button called 'Password Info.' Your connection settings are stored there along with the app you need.
+Step 01: Download the software on your PC: Cloud CMS Software
+Step 02: After you download the application, run the installer. It will automatically install and leave a shortcut on your desktop called 'Cloud CMS'
+Step 03: You will be prompted to enter an ID and security pin. Enter the following and select the button 'Sync Sites' when you entered the information into the fields. Use the administrator pin for full access.
+ID: CHILD SCHOOL 537 
+Administrator Pin: 3084
+Non-Admininstrator Pin: 2525 Hide
+(Note: The non-admin pin should be given to users who you don't want access to the site connection credentialsShow. This won't allow them to access the mobile settings to connect to a mobile device, and won't automatically sign them into the cloud desktop application.

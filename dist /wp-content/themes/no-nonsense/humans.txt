@@ -1,0 +1,21 @@
+/* TEAM */
+Lead Developer: Daniel Pataki.
+Site: http://danielpataki.com
+Twitter: danielpataki
+Location: Budapest, Hungary
+
+/* THANKS */
+
+Codekit 2: https://incident57.com/codekit/
+Unsplash: https://unsplash.com/
+Font Awesome: http://fontawesome.io
+HTML 5 Doctor CSS Reset: http://html5doctor.com/html-5-reset-stylesheet/
+jQuery xColor: https://github.com/infusion/jQuery-xcolor
+Sublime Text: http://www.sublimetext.com/
+WP-CLI: http://wp-cli.org
+WP Test: http://wptest.io/
+Monster Widget: https://wordpress.org/plugins/monster-widget/
+Regenerate Thumbnails: http://wordpress.org/plugins/regenerate-thumbnails/
+RTL Tester: http://wordpress.org/plugins/rtl-tester/
+Theme Check: http://wordpress.org/plugins/theme-check/
+WordPress importer: http://wordpress.org/plugins/wordpress-importer/

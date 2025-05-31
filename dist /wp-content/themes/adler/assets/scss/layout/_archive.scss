@@ -1,0 +1,168 @@
+.post {
+  padding-top: 80px;
+  background-color: $lightest;
+
+  @include query-below($small){
+    padding-top: 15px;
+  }
+
+  &.hero-content {
+    padding-top: 0;
+  }
+
+  .entry-wrapper {
+    position: relative;
+
+    @include query-below($small){
+      padding: 0;
+    }
+
+    .entry-header {
+
+      h1 {
+        margin-bottom: 50px;
+        position: relative;
+      }
+    }
+
+    .entry-thumbnail {
+      margin-left: -100px;
+      margin-right: -100px;
+      margin-top: -60px;
+      text-align: center;
+
+    }
+
+    .main-wrapper {
+      position: relative;
+      background-color: #f7f7f7;
+      padding: 50px 50px 70px 50px;
+      margin: -50px -50px 0 -50px;
+
+      @include query-below($small){
+        padding: 15px;
+        margin: 0;
+      }
+
+      &:after {
+        content: ' ';
+        position: absolute;
+        bottom: -30px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+
+        background: url(assets/images/leaf.png) center center no-repeat;
+        background-color: #fff;
+        // background-size: 28px 60px;
+      }
+
+      .entry__read-more {
+        width: 105px;
+       
+        text-align: center;
+        margin-bottom: 35px;
+        margin-left: auto;
+        margin-right: auto;
+
+        @include query-below($small){
+          margin-bottom: 15px;
+        }
+
+        a {
+          display: block;
+          line-height: 44px;
+          border-bottom: none;
+          color: $dark;
+          background: url(assets/images/more-bg.png);
+          background-size: cover;
+        }
+
+      }
+
+      .entry-footer {
+       display: flex;
+       justify-content: space-between;
+
+        .entry-meta {
+
+          }
+          > * {
+            display: inline-block;
+          }
+
+          .hero_categories {
+            display: inline-block;
+
+            @include query-below($tiny){
+              display: block;
+            }
+          }
+
+          .posted-on {
+
+            a {
+              border-bottom: none;
+            }
+          }
+
+        .separator {
+          @include query-below($tiny) {
+            display: none;
+        }
+
+        }
+
+        .comments-link {
+            i {
+              padding-right: 5px;
+              @include query-below($tiny) {
+                padding-right: 0;
+                padding-bottom: 5px;
+                display: block;
+              }
+            }
+
+          a {
+            border-bottom: none;
+          }
+
+        }
+
+        .cat-links {
+          display: none;
+        }
+
+        @include query-below($small) {
+          padding-bottom: 30px;
+        }
+      }
+
+    }
+
+  }
+
+  &.even-post {
+    background-color: $white;
+
+    .main-wrapper {
+      background-color: $white;
+
+      &:after {
+        background-color: #f7f7f7;
+      }
+    }
+
+  }
+
+  &.even-post:last-child {
+
+      .main-wrapper:after {
+        display: none;
+      }
+    
+  }
+
+}

@@ -1,0 +1,27 @@
+.search-results {
+    .content-area {
+      text-align: center;
+        .page-header {
+            .page-title {
+                    @extend blockquote;
+            }
+        }
+      .hero_categories {
+        display: inline-block;
+      }
+    .entry-title{
+      a {
+        border-bottom: 0;
+      }
+    }
+
+        article {
+          .entry-footer {
+            display: none;
+          }
+          &.type-page {
+            margin-top: 40px;
+          }
+        }
+    }
+}

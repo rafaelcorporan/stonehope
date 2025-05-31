@@ -1,0 +1,88 @@
+/* Footer Styles
+----------------------------------------------- */
+
+.footer-widgets {
+
+	hr {
+		border-color: @gray;
+		margin: 0;
+	}
+
+	.widget {
+		color: @tan-lightest;
+		font-size: 16px;
+		line-height: 34px;
+	}
+}
+
+.footer {
+	padding-top: 30px;
+	padding-bottom: 20px;
+	background: @gray-dark;
+	font-size: 10px;
+	.lato();
+	color: @tan-lightest;
+	text-transform: uppercase;
+
+	p {
+		margin-bottom: 0;
+	}
+
+	.footer-left {
+		text-align: center;
+		margin-bottom: 30px;
+	}
+
+	.footer-right {
+
+		img {
+			display: block;
+		}
+
+		.socials {
+			display: inline-block;
+			float: right;
+			width: 100%;
+
+			ul {
+				text-align: center;
+
+				li {
+					display: inline-block;
+
+					a {
+						display: inline-block;
+						margin: 0 8px;
+						padding: 12px 0;
+
+						.icon {
+							fill: @gray-light;
+							height: 22px;
+							width: 22px;
+							display: block;
+							.transition(fill 0.25s);
+						}
+
+						&:hover {
+
+							.icon {
+								fill: @white;
+							}
+						}
+					}
+				}
+			}
+
+			.p75 {
+				padding: 10px 0;
+				display: block;
+				margin: 0 auto;
+				text-align: center;
+
+				img {
+					margin: 0 auto;
+				}
+			}
+		}
+	}
+}

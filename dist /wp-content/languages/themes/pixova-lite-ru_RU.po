@@ -1,0 +1,1741 @@
+# Translation of Pixova Lite in Russian
+# This file is distributed under the same license as the Pixova Lite package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2015-11-23 15:11:46+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: GlotPress/1.0-alpha-1100\n"
+"Project-Id-Version: Pixova Lite\n"
+
+#. Description of the plugin/theme
+msgid "A modern design with clean lines and styling for a wide variety of content, exactly how a business design should be. Pixova is a one-page parallax theme, with excellent built-in functionality. You can add as many images as you want to the main header area, turn them into slider. Theme includes animations (can be turned off), a custom pre-loader (can be turned off) and has been optimized for loading speed."
+msgstr "Современный дизайн с аккуратными линиями и оформлением для всех типов содержимого — именно таким и должен быть деловой сайт. Pixova — это одностраничная параллакс-тема с превосходной встроенной функциональностью. Вы можете добавить в заголовок сколько угодно изображений и сделать из них слайдер. В теме доступна анимация (которую можно отключить) и предварительный загрузчик (его тоже можно отключить). Скорость загрузки темы оптимизирована."
+
+#. #-#-#-#-#  pixova-lite.pot (Pixova Lite 1.34.17)  #-#-#-#-#
+#. Theme Name of the plugin/theme
+#: footer.php:65
+msgid "Pixova Lite"
+msgstr "Pixova Lite"
+
+#: inc/customizer.php:658
+msgid "Enter Slide #1 Image URL "
+msgstr "Введите URL изображения № 1"
+
+#: inc/customizer.php:641
+msgid "Header Slider"
+msgstr "Слайдер заголовка"
+
+#: footer.php:55
+msgid "&copy; Copyright %s. All Rights Reserved"
+msgstr "&copy; %s. Все права защищены"
+
+#: inc/extras.php:428
+msgid "Simple. Powerful. Flexible. That's how we at %s build all of our themes."
+msgstr "Простые. Функциональные. Гибкие. Такими мы в %s делаем все наши темы."
+
+#: inc/customizer.php:433
+msgid "Disabling this, will remove the header parallax text fade-out effect."
+msgstr "Отключение этой настройки уберёт эффект плавного исчезновения текста в заголовке."
+
+#: inc/customizer.php:432
+msgid "Enable Parallax Header Fade-out Effect ?"
+msgstr "Включить эффект исчезновения заголовка при прокрутке?"
+
+#: comments.php:14
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%2$s: %1$s комментарий"
+msgstr[1] "%2$s: %1$s комментария"
+msgstr[2] "%2$s: %1$s комментариев"
+
+#: inc/custom-controls.php:209 inc/custom-controls.php:232
+#: inc/custom-controls.php:255 inc/custom-controls.php:302 inc/extras.php:122
+msgid "View PRO version"
+msgstr "Посмотреть версию PRO"
+
+#: inc/extras.php:130
+msgid "If you like it, rate it !"
+msgstr "Если вам нравится тема, оставьте отзыв! "
+
+#: inc/customizer.php:409
+msgid "Enable default blog images ?"
+msgstr "Включить изображения по умолчанию? "
+
+#: inc/customizer.php:410
+msgid "Disabling this will mean that when there is no featured image set, you will not have a placeholder."
+msgstr "Отключение этой настройки означает, что если миниатюра записи не задана, изображение по умолчанию не будет выводиться."
+
+#: inc/customizer.php:266
+msgid "Company name in text format below"
+msgstr "Название компании в текстовом формате ниже"
+
+#: inc/customizer.php:274
+msgid "Your Image URL HERE"
+msgstr "URL вашего изображения ЗДЕСЬ"
+
+#: inc/customizer.php:283
+msgid "Enter company image logo"
+msgstr "Вставьте изображение с логотипом компании"
+
+#: inc/customizer.php:322
+msgid "Remove what we do section ?"
+msgstr "Удалить раздел «Что мы делаем»?"
+
+#: inc/customizer.php:313
+msgid "Remove this section."
+msgstr "Удалить этот раздел"
+
+#: inc/customizer.php:613
+msgid "Enter YouTube video URL "
+msgstr "Введите URL видео на YouTube"
+
+#: inc/customizer.php:596
+msgid "Header Video"
+msgstr "Видео в заголовке"
+
+#: inc/components/breadcrumbs/class.mt-breadcrumbs.php:78
+msgid "Tag:"
+msgstr "Метка: "
+
+#: inc/components/breadcrumbs/class.mt-breadcrumbs.php:79
+msgid "Search:"
+msgstr "Искать:"
+
+#: inc/customizer.php:525
+msgid "You are here"
+msgstr "Вы здесь"
+
+#: inc/components/breadcrumbs/class.mt-breadcrumbs.php:80
+msgid "404 - Page not Found"
+msgstr "404 — страница не найдена"
+
+#: inc/customizer.php:571
+msgid "Show post category ?"
+msgstr "Отображать рубрику записи?"
+
+#: inc/customizer.php:572
+msgid "Show the post category in the breadcrumb ?"
+msgstr "Отображать в «хлебных крошках» рубрику записи?"
+
+#: inc/customizer.php:387
+msgid "Breadcrumbs on single blog posts"
+msgstr "«Хлебные крошки» на страницах записей"
+
+#: inc/customizer.php:388
+msgid "This will disable the breadcrumbs"
+msgstr "Эта настройка отключает «хлебные крошки»"
+
+#: inc/customizer.php:514
+msgid "Breadcrumbs"
+msgstr "«Хлебные крошки»"
+
+#: inc/customizer.php:515
+msgid "Various breadcrumb related settings, like: breadcrumb prefix, breadcrumb item separator & breadcrumb menu post category visibility setting."
+msgstr "Различные настройки навигационных цепочек, в том числе: префикс, разделитель и настройка видимости рубрик записей в меню. "
+
+#: inc/customizer.php:531
+msgid "Text before the breadcrumbs menu"
+msgstr "Текст перед «хлебными крошками»"
+
+#: inc/customizer.php:532
+msgid "Recommended: You are here"
+msgstr "Пример: Вы здесь"
+
+#: inc/customizer.php:554
+msgid "Separator to be used between breadcrumb items"
+msgstr "Разделитель между элементами «хлебных крошек»"
+
+#: inc/customizer.php:555
+msgid "Select from predefined separators"
+msgstr "Выберите символ разделителя"
+
+#: inc/components/breadcrumbs/class.mt-breadcrumbs.php:73
+msgid "You Are Here"
+msgstr "Вы здесь"
+
+#: inc/components/breadcrumbs/class.mt-breadcrumbs.php:77
+msgid "Home"
+msgstr "Главная"
+
+#: sections/section-about.php:98
+msgid "Our Skills"
+msgstr "Наши навыки"
+
+#: inc/customizer.php:365
+msgid "Enable Section Animations ?"
+msgstr "Включить анимацию разделов?"
+
+#: inc/customizer.php:304
+msgid "This is the copyright message that will be displayed in the footer"
+msgstr "Это сообщение об авторских правах, которое будет отображаться в подвале"
+
+#: inc/customizer.php:367
+msgid "When scrolling, elements are coming into view with a slide-in animation. By disabling this setting, the swooshing of elements will be canceled."
+msgstr "При прокрутке страницы элементы попадают в поле зрения с анимацией. Если отключить эту настройку, анимация элементов будет отменена."
+
+#: inc/extras.php:533
+msgid "Live Preview"
+msgstr "Интерактивный предварительный просмотр"
+
+#: inc/extras.php:396 inc/extras.php:397
+msgid "More Themes"
+msgstr "Другие темы"
+
+#: inc/extras.php:528
+msgid "Install Now"
+msgstr "Установить"
+
+#: inc/extras.php:466
+msgid " Current theme"
+msgstr "Текущая тема"
+
+#. Template Name of the plugin/theme
+msgid "Blog Template"
+msgstr "Шаблон для блога"
+
+#: inc/customizer.php:342 inc/customizer.php:363 inc/customizer.php:385
+#: inc/customizer.php:407 inc/customizer.php:430
+msgid "Disabled"
+msgstr "Отключён"
+
+#: inc/customizer.php:344
+msgid "Enable Preloader ?"
+msgstr "Включить предварительную загрузку?"
+
+#: inc/customizer.php:346
+msgid "Enable the LOADING message that is displayed when pages are loading ?"
+msgstr "Включить сообщение «Загрузка», которое отображается во время загрузки страниц?"
+
+#: inc/customizer.php:913
+msgid "Pie Chart Section"
+msgstr "Раздел круговых диаграмм"
+
+#: inc/customizer.php:740 sections/section-intro.php:5
+msgid "Explore Pixova."
+msgstr "Изучите Pixova"
+
+#: inc/customizer.php:687
+msgid "CTA Text"
+msgstr "Текст заголовка"
+
+#: footer.php:65
+msgid "Theme:"
+msgstr "Тема:"
+
+#: header.php:24
+msgid "Loading"
+msgstr "Загрузка"
+
+#: inc/customizer.php:264
+msgid "Enter company name"
+msgstr "Введите название компании"
+
+#: inc/customizer.php:295
+msgid ". All Rights Reserved"
+msgstr ". Все права защищены"
+
+#: inc/customizer.php:295
+msgid "Copyright 20"
+msgstr "20"
+
+#: inc/customizer.php:140
+msgid "Display the Pie Chart section ?"
+msgstr "Отображать раздел круговых диаграмм?"
+
+#: footer.php:67
+msgid "Made with love by"
+msgstr "Сделано с любовью в"
+
+#: inc/customizer.php:341 inc/customizer.php:362 inc/customizer.php:384
+#: inc/customizer.php:406 inc/customizer.php:429
+msgid "Enabled"
+msgstr "Включён"
+
+#: widgets/widget-social-icons.php:159
+msgid "Instagram profile URL:"
+msgstr "URL профиля в Instagram:"
+
+#: widgets/widget-social-icons.php:154
+msgid "Tumblr profile URL:"
+msgstr "URL профиля в Tumblr:"
+
+#: widgets/widget-social-icons.php:149
+msgid "Dribbble profile URL:"
+msgstr "URL профиля в Dribbble:"
+
+#: widgets/widget-social-icons.php:139
+msgid "Pinterest profile URL:"
+msgstr "URL профиля в Pinterest:"
+
+#: widgets/widget-social-icons.php:144
+msgid "YouTube profile URL:"
+msgstr "URL профиля на YouTube:"
+
+#: widgets/widget-social-icons.php:134
+msgid "Google Plus profile URL:"
+msgstr "URL профиля в Google Plus:"
+
+#: widgets/widget-social-icons.php:124
+msgid "Facebook profile URL:"
+msgstr "URL профиля в Facebook:"
+
+#: widgets/widget-social-icons.php:129
+msgid "Twitter profile URL:"
+msgstr "URL профиля в Twitter:"
+
+#. Template Name of the plugin/theme
+msgid "Page with sidebar on the left"
+msgstr "Страница с боковой колонкой слева"
+
+#. Template Name of the plugin/theme
+msgid "Page with sidebar on the right"
+msgstr "Страница с боковой колонкой справа"
+
+#: widgets/widget-social-icons.php:74
+msgid "Instagram"
+msgstr "Instagram"
+
+#: widgets/widget-social-icons.php:66
+msgid "Dribbble"
+msgstr "Dribbble"
+
+#: widgets/widget-social-icons.php:70
+msgid "Tumblr"
+msgstr "Tumblr"
+
+#: widgets/widget-social-icons.php:58
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: widgets/widget-social-icons.php:62
+msgid "YouTube"
+msgstr "YouTube"
+
+#: widgets/widget-social-icons.php:54
+msgid "Google+"
+msgstr "Google+"
+
+#: widgets/widget-social-icons.php:50
+msgid "Twitter"
+msgstr "Twitter"
+
+#: widgets/widget-social-icons.php:46
+msgid "Facebook"
+msgstr "Facebook"
+
+#: widgets/widget-latest-posts.php:19
+msgid "[MT] - Latest Posts"
+msgstr "[MT] — Свежие записи"
+
+#: widgets/widget-latest-posts.php:93
+msgid "How many post to show:"
+msgstr "Сколько записей отображать:"
+
+#: widgets/widget-latest-posts.php:10
+msgid "A widget that displays popular posts from blog"
+msgstr "Виджет, отображающий популярные записи блога"
+
+#: widgets/widget-social-icons.php:16
+msgid "[MT] - Social Media"
+msgstr "[MT] -— Социальные сети"
+
+#: widgets/widget-social-icons.php:10
+msgid "A widget that displays social media icons designed for blog sidebar"
+msgstr "Виджет, отображающий иконки социальных сетей. Предназначен для боковой колонки блога."
+
+#: widgets/widget-about-sm.php:74 widgets/widget-latest-posts.php:88
+#: widgets/widget-social-icons.php:119
+msgid "Title:"
+msgstr "Название:"
+
+#: sections/section-works.php:103 sections/section-works.php:127
+#: sections/section-works.php:152 sections/section-works.php:176
+msgid "See project"
+msgstr "Посмотреть проект"
+
+#: sections/section-team.php:8 sections/section-team.php:14
+#: sections/section-team.php:20 sections/section-team.php:26
+#: sections/section-team.php:32
+msgid "John doe"
+msgstr "Джон Доу"
+
+#: inc/customizer.php:2087 sections/section-news.php:111
+#: sections/section-news.php:113
+msgid "Visit our blog"
+msgstr "Посетите наш блог"
+
+#: sections/section-testimonials.php:93 sections/section-testimonials.php:133
+#: sections/section-testimonials.php:173 sections/section-testimonials.php:213
+#: sections/section-testimonials.php:253
+msgid "Please enter testimonial person name."
+msgstr "Введите имя автора отзыва."
+
+#: sections/section-testimonials.php:85 sections/section-testimonials.php:125
+#: sections/section-testimonials.php:165 sections/section-testimonials.php:205
+#: sections/section-testimonials.php:245
+msgid "Please enter testimonial text"
+msgstr "Введите текст отзыва."
+
+#: widgets/widget-about-sm.php:19
+msgid "[MT] - About"
+msgstr "[MT] — О сайте"
+
+#: widgets/widget-about-sm.php:10
+msgid "A widget that displays about text & social media counts. Designed for footer"
+msgstr "Виджет, отображающий текст о сайте и количество подписчиков в соцсетях. Предназначен для подвала."
+
+#: sidebars/sidebars.php:14
+msgid "[Blog] Sidebar #1"
+msgstr "[Блог] Боковая колонка № 1"
+
+#: sidebars/sidebars.php:24
+msgid "[Footer] Sidebar #1"
+msgstr "[Подвал] Боковая колонка № 1"
+
+#: sidebars/sidebars.php:34
+msgid "[Footer] Sidebar #2"
+msgstr "[Подвал] Боковая колонка № 2"
+
+#: sidebars/sidebars.php:44
+msgid "[Footer] Sidebar #3"
+msgstr "[Подвал] Боковая колонка № 3"
+
+#: sidebars/sidebars.php:54
+msgid "[Footer] Sidebar #4"
+msgstr "[Подвал] Боковая колонка № 4"
+
+#: sidebars/sidebars.php:25
+msgid "In the footer, first column"
+msgstr "В подвале, первая колонка"
+
+#: sidebars/sidebars.php:35
+msgid "In the footer, 2nd column"
+msgstr "В подвале, вторая колонка"
+
+#: sidebars/sidebars.php:45
+msgid "In the footer, 3rd column"
+msgstr "В подвале, третья колонка"
+
+#: sidebars/sidebars.php:55
+msgid "In the footer, last column"
+msgstr "В подвале, последняя колонка"
+
+#: sidebars/sidebars.php:15
+msgid "In blog archive, right side"
+msgstr "В архиве блога, с правой стороны"
+
+#: sections/section-works.php:4
+msgid "Show and tell time"
+msgstr "Время рассказать о себе"
+
+#: sections/section-testimonials.php:4
+msgid "We don not like to brag, others do it for us."
+msgstr "Мы не любим хвастаться, другие делают это за нас."
+
+#: sections/section-testimonials.php:7 sections/section-testimonials.php:12
+#: sections/section-testimonials.php:17 sections/section-testimonials.php:22
+#: sections/section-testimonials.php:27
+msgid "Katie Parry - Aviato"
+msgstr "Кэти Перри — Aviato"
+
+#: sections/section-testimonials.php:8 sections/section-testimonials.php:13
+#: sections/section-testimonials.php:18 sections/section-testimonials.php:23
+#: sections/section-testimonials.php:28
+msgid "Working with Pixova has been the experience of a lifetime. I strongly recommend these guys for their amazing support. Lorem ipsum dolor sit amet lorem ipsum."
+msgstr "Работа с Pixova стала одним из лучших событий в моей жизни. Очень рекомендую этих ребят за их потрясающую поддержку. Lorem ipsum dolor sit amet lorem ipsum."
+
+#: inc/extras.php:652
+msgid "Read more"
+msgstr "Читать далее"
+
+#: sections/section-intro.php:52
+msgid "What We Do"
+msgstr "Что мы делаем"
+
+#: sections/section-intro.php:3
+msgid "Probably the BEST FREE WordPress theme of all times. Now with WooCommerce Support."
+msgstr "Вероятно, лучшая бесплатная тема для WordPress за все времена. Теперь с  поддержкой WooCommerce."
+
+#: sections/section-header-archive.php:73
+msgid "Search Results for: %s"
+msgstr "Результаты поиска: %s"
+
+#: sections/section-header-archive.php:68
+msgid "Posts tagged with: %s"
+msgstr "Записи с меткой «%s»"
+
+#: sections/section-contact.php:53
+msgid "No contact form selected. Please go to Customize -> Contact section and select a contact form from the drop-down."
+msgstr "Контактная форма не выбрана. Откройте секцию «Настроить» → «Раздел контактов» и выберите контактную форму из выпадающего списка."
+
+#: sections/section-contact.php:35
+msgid "Phone: "
+msgstr "Телефон: "
+
+#: sections/section-contact.php:34
+msgid "Customer Support"
+msgstr "Служба поддержки"
+
+#: sections/section-about.php:24
+msgid "Print Design"
+msgstr "Полиграфический дизайн"
+
+#: sections/section-about.php:18
+msgid "Web Design"
+msgstr "Веб-дизайн"
+
+#: sections/section-contact.php:37
+msgid "Email: "
+msgstr "E-mail:"
+
+#: sections/section-contact.php:8
+msgid "Street 221B Baker Street, London, UK"
+msgstr "Бейкер-стрит, 221Б, Лондон, Великобритания"
+
+#: sections/section-about.php:30
+msgid "Graphic Identity"
+msgstr "Фирменный стиль"
+
+#: sections/section-about.php:4
+msgid "This is what we do in a nutshell."
+msgstr "Кратко о том, что мы делаем."
+
+#: inc/plugin-activation.php:3376
+msgid "%1$s installed successfully."
+msgstr "%1$s успешно установлен."
+
+#: inc/plugin-activation.php:3378
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Установка плагина %1$s (%2$d/%3$d)"
+
+#: inc/plugin-activation.php:3377
+msgid "All installations have been completed."
+msgstr "Все установки завершены."
+
+#: inc/plugin-activation.php:3372
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Установка и активация плагина %1$s (%2$d/%3$d)"
+
+#: inc/plugin-activation.php:3375
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "Начинается процесс установки. Он может занять некоторое время — пожалуйста, наберитесь терпения."
+
+#: inc/plugin-activation.php:3371
+msgid "All installations and activations have been completed."
+msgstr "Все установки и активации завершены."
+
+#: inc/plugin-activation.php:3370 inc/plugin-activation.php:3376
+msgid "Hide Details"
+msgstr "Скрыть детали"
+
+#: inc/plugin-activation.php:3370 inc/plugin-activation.php:3376
+msgid "Show Details"
+msgstr "Показать детали"
+
+#: inc/plugin-activation.php:3370
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s успешно установлен и активирован."
+
+#: inc/plugin-activation.php:3369
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "Начинается процесс установки и активации. Он может занять некоторое время — пожалуйста, наберитесь терпения."
+
+#: inc/plugin-activation.php:3365
+msgid "The installation of %1$s failed."
+msgstr "Установка %1$s не удалась."
+
+#: inc/plugin-activation.php:3364
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "При установке %1$s произошла ошибка: <strong>%2$s</strong>."
+
+#: inc/plugin-activation.php:3362
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "Обновление плагина %1$s (%2$d/%3$d)"
+
+#: inc/plugin-activation.php:3028
+msgid "Plugin activation failed."
+msgstr "Активация плагина не удалась"
+
+#: inc/plugin-activation.php:2645
+msgid "No plugins were selected to be updated. No action taken."
+msgstr "Не выбраны плагины для обновления. Никаких действий не произведено."
+
+#: inc/plugin-activation.php:2643
+msgid "No plugins were selected to be installed. No action taken."
+msgstr "Не выбраны плагины для установки. Никаких действий не произведено."
+
+#: inc/plugin-activation.php:2788
+msgid "No plugins were selected to be activated. No action taken."
+msgstr "Не выбраны плагины для активации. Никаких действий не произведено."
+
+#: inc/plugin-activation.php:2814
+msgid "No plugins are available to be activated at this time."
+msgstr "На текущий момент плагины для активации недоступны."
+
+#: inc/plugin-activation.php:2681
+msgid "No plugins are available to be installed at this time."
+msgstr "На текущий момент плагины для установки недоступны."
+
+#: inc/plugin-activation.php:2683
+msgid "No plugins are available to be updated at this time."
+msgstr "На текущий момент плагины для обновления недоступны."
+
+#: inc/plugin-activation.php:2612
+msgid "Activate"
+msgstr "Включить"
+
+#: inc/plugin-activation.php:2609
+msgid "Update"
+msgstr "Обновить"
+
+#: inc/plugin-activation.php:2603
+msgid "Install"
+msgstr "Установить"
+
+#: inc/plugin-activation.php:2500
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Activate %2$s"
+msgstr "Aктивировать %2$s"
+
+#: inc/plugin-activation.php:2495
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Update %2$s"
+msgstr "Обновить %2$s"
+
+#: inc/plugin-activation.php:2491
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Install %2$s"
+msgstr "Установить %2$s"
+
+#: inc/plugin-activation.php:2570
+msgid "Upgrade message from the plugin author:"
+msgstr "Сообщение об обновлении от автора плагина:"
+
+#: inc/plugin-activation.php:2443
+msgid "Status"
+msgstr "Состояние"
+
+#: inc/plugin-activation.php:2442
+msgid "Version"
+msgstr "Версия"
+
+#: inc/plugin-activation.php:2438
+msgid "Type"
+msgstr "Тип"
+
+#: inc/plugin-activation.php:2437
+msgid "Source"
+msgstr "Источник"
+
+#: inc/plugin-activation.php:2436
+msgid "Plugin"
+msgstr "Плагин"
+
+#: inc/plugin-activation.php:2387
+msgid "Minimum required version:"
+msgstr "Минимальная требуемая версия:"
+
+#: inc/plugin-activation.php:2379
+msgid "Installed version:"
+msgstr "Установленная версия:"
+
+#: inc/plugin-activation.php:2371
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr "неизвестно"
+
+#: inc/plugin-activation.php:2289
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] "Активировать <span class=\"count\">(%s)</span>"
+msgstr[1] "Активировать <span class=\"count\">(%s)</span>"
+msgstr[2] "Активировать <span class=\"count\">(%s)</span>"
+
+#: inc/plugin-activation.php:2399
+msgid "Available version:"
+msgstr "Доступная версия:"
+
+#: inc/plugin-activation.php:2422
+msgid "No plugins to install, update or activate. <a href=\"%1$s\">Return to the Dashboard</a>"
+msgstr "Нет плагинов для установки, обновления или активации. <a href=\"%1$s\">Вернуться в консоль</a>"
+
+#: inc/plugin-activation.php:2286
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] "Доступны обновления <span class=\"count\">(%s)</span>"
+msgstr[1] "Доступны обновления <span class=\"count\">(%s)</span>"
+msgstr[2] "Доступны обновления <span class=\"count\">(%s)</span>"
+
+#: inc/plugin-activation.php:2283
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] "Установить <span class=\"count\">(%s)</span>"
+msgstr[1] "Установить <span class=\"count\">(%s)</span>"
+msgstr[2] "Установить <span class=\"count\">(%s)</span>"
+
+#: inc/plugin-activation.php:2280
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "Все <span class=\"count\">(%s)</span>"
+msgstr[1] "Все <span class=\"count\">(%s)</span>"
+msgstr[2] "Все <span class=\"count\">(%s)</span>"
+
+#: inc/plugin-activation.php:2235
+msgctxt "%1$s = install status, %2$s = update status"
+msgid "%1$s, %2$s"
+msgstr "%1$s, %2$s"
+
+#: inc/plugin-activation.php:2227
+msgid "Update recommended"
+msgstr "рекомендуется обновление"
+
+#: inc/plugin-activation.php:2221
+msgid "Required Update not Available"
+msgstr "необходимое обновление недоступно"
+
+#: inc/plugin-activation.php:2224
+msgid "Requires Update"
+msgstr "необходимо обновление"
+
+#: inc/plugin-activation.php:2215
+msgid "Active"
+msgstr "Активен"
+
+#: inc/plugin-activation.php:2213
+msgid "Installed But Not Activated"
+msgstr "Установлен, но не активирован"
+
+#: inc/plugin-activation.php:2209
+msgid "Not Installed"
+msgstr "Не установлен"
+
+#: inc/plugin-activation.php:2189
+msgid "External Source"
+msgstr "Внешний источник"
+
+#: inc/plugin-activation.php:2192
+msgid "Pre-Packaged"
+msgstr "Включён в дистрибутив"
+
+#: inc/plugin-activation.php:2186
+msgid "WordPress Repository"
+msgstr "Каталог WordPress"
+
+#: inc/plugin-activation.php:2170
+msgid "Recommended"
+msgstr "Рекомендуется"
+
+#: inc/plugin-activation.php:1881
+msgctxt "%s = version number"
+msgid "TGMPA v%s"
+msgstr "TGMPA v%s"
+
+#: inc/plugin-activation.php:1116 inc/plugin-activation.php:2828
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr "и"
+
+#: inc/plugin-activation.php:2167
+msgid "Required"
+msgstr "Необходим"
+
+#: inc/plugin-activation.php:938
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr "Архив плагина состоит из более чем одного файла, но эти файлы не находятся в папке."
+
+#: inc/plugin-activation.php:935 inc/plugin-activation.php:938
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr "Пожалуйста, свяжитесь с поставщиком плагина и попросите его упаковать плагин в соответствии с рекомендациями WordPress."
+
+#: inc/plugin-activation.php:935
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr "Архив плагина не содержит папки нужным именем и переименование не сработало."
+
+#: inc/plugin-activation.php:404
+msgid "Dismiss this notice"
+msgstr "Игнорировать это уведомление"
+
+#: inc/plugin-activation.php:521
+msgid "Update Required"
+msgstr "Необходимо обновление"
+
+#: inc/plugin-activation.php:405
+msgid "Please contact the administrator of this site for help."
+msgstr "Пожалуйста, обратитесь за помощью к администратору сайта."
+
+#: inc/plugin-activation.php:828 inc/plugin-activation.php:3438
+msgid "Return to the Dashboard"
+msgstr "Вернуться в консоль"
+
+#: inc/plugin-activation.php:520
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr "Этот плагин необходимо обновить для совместимости с вашей темой."
+
+#: inc/plugin-activation.php:635
+msgid "Set the parent_slug config variable instead."
+msgstr "Используйте переменную parent_slug."
+
+#: inc/plugin-activation.php:400 inc/plugin-activation.php:2832
+msgid "The following plugin was activated successfully:"
+msgstr "Этот плагин был успешно активирован:"
+
+#: inc/plugin-activation.php:403
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Всеплагины установлены и активированны успешно. %1$s"
+
+#: inc/plugin-activation.php:402
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr "Плагин не активирован. Для этой темы необходима более новая версия %s. Пожалуйста, обновите плагин."
+
+#: inc/plugin-activation.php:401
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "Никаких действий не произведено. Плагин %1$s уже активирован."
+
+#: inc/extras.php:313
+msgid "Comments are off for this post."
+msgstr "Комментарии к этой записи отключены."
+
+#: inc/plugin-activation.php:398
+msgid "Return to the dashboard"
+msgstr "Вернуться в консоль"
+
+#: inc/plugin-activation.php:377
+msgid "Sorry, but you do not have the correct permissions to activate the %1$s plugin."
+msgid_plural "Sorry, but you do not have the correct permissions to activate the %1$s plugins."
+msgstr[0] "Извините, у вас недостаточно полномочий, чтобы активировать плагин %1$s."
+msgstr[1] "Извините, у вас недостаточно полномочий, чтобы активировать плагины %1$s."
+msgstr[2] "Извините, у вас недостаточно полномочий, чтобы активировать плагины %1$s."
+
+#: inc/plugin-activation.php:357
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] "Доступно обновление для %1$s."
+msgstr[1] "Доступны обновления для следующих плагинов: %1$s."
+msgstr[2] "Доступны обновления для следующих плагинов: %1$s."
+
+#: inc/plugin-activation.php:387
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] "Начать обновление плагина"
+msgstr[1] "Начать обновление плагинов"
+msgstr[2] "Начать обновление плагинов"
+
+#: inc/plugin-activation.php:362
+msgid "Sorry, but you do not have the correct permissions to update the %1$s plugin."
+msgid_plural "Sorry, but you do not have the correct permissions to update the %1$s plugins."
+msgstr[0] "Извините, у вас недостаточно полномочий, чтобы обновить плагин %1$s."
+msgstr[1] "Извините, у вас недостаточно полномочий, чтобы обновить плагины %1$s."
+msgstr[2] "Извините, у вас недостаточно полномочий, чтобы обновить плагины %1$s."
+
+#: inc/plugin-activation.php:347
+msgid "Sorry, but you do not have the correct permissions to install the %1$s plugin."
+msgid_plural "Sorry, but you do not have the correct permissions to install the %1$s plugins."
+msgstr[0] "Извините, у вас недостаточно полномочий, чтобы установить плагин %1$s."
+msgstr[1] "Извините, у вас недостаточно полномочий, чтобы установить плагины %1$s."
+msgstr[2] "Извините, у вас недостаточно полномочий, чтобы установить плагины %1$s."
+
+#: inc/extras.php:309
+msgid "1 Comment"
+msgstr "1 комментарий"
+
+#: inc/extras.php:307
+msgid " Comments"
+msgstr " комментариев"
+
+#: inc/extras.php:305
+msgid "No Comments"
+msgstr "Комментариев нет"
+
+#: inc/extras.php:260
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Следующие записи <span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/extras.php:255
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Предыдущие записи"
+
+#: inc/extras.php:249
+msgctxt "Next post link"
+msgid "&rarr;"
+msgstr "&rarr;"
+
+#: inc/extras.php:248
+msgctxt "Previous post link"
+msgid "&larr;"
+msgstr "&larr;"
+
+#: inc/extras.php:208
+msgctxt "Next post link"
+msgid "%title <span class=\"meta-nav\">&rarr;</span>"
+msgstr "%title <span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/extras.php:207
+msgctxt "Previous post link"
+msgid "<span class=\"meta-nav\">&larr;</span> %title"
+msgstr "<span class=\"meta-nav\">&larr;</span> %title"
+
+#: inc/extras.php:202 inc/extras.php:244
+msgid "Post navigation"
+msgstr "Навигация по записям"
+
+#: inc/extras.php:60
+msgid "Page %s"
+msgstr "Страница %s"
+
+#: inc/customizer.php:632 inc/customizer.php:677
+msgid "Discover Pixova PRO"
+msgstr "Узнайте о Pixova PRO "
+
+#: inc/customizer.php:2224 sections/section-team.php:4
+msgid "The team"
+msgstr "Команда"
+
+#: inc/customizer.php:2172
+msgid "Contact forms"
+msgstr "Контактные формы"
+
+#: inc/customizer.php:2140 sections/section-contact.php:4
+msgid "Contact us"
+msgstr "Свяжитесь с нами"
+
+#: inc/customizer.php:2129
+msgid "Section titles"
+msgstr "Названия разделов"
+
+#: inc/customizer.php:2257
+msgid "Team member #1"
+msgstr "Участник команды № 1"
+
+#: inc/customizer.php:2309
+msgid "Team member #1 Facebook URL"
+msgstr "URL в Facebook участника команды № 1"
+
+#: inc/customizer.php:2326
+msgid "Team member #1 Dribbble URL"
+msgstr "URL в Dribbble участника команды № 1"
+
+#: inc/customizer.php:2274
+msgid "Team member #1 name"
+msgstr "Имя участника команды № 1"
+
+#: inc/customizer.php:2291
+msgid "Team member #1 image"
+msgstr "Фотография участника команды № 1"
+
+#: inc/customizer.php:2604
+msgid "Team member #5 image"
+msgstr "Фотография участника команды № 5"
+
+#: inc/customizer.php:2526
+msgid "Team member #4 image"
+msgstr "Фотография участника команды № 4"
+
+#: inc/customizer.php:2448
+msgid "Team member #3 image"
+msgstr "Фотография участника команды № 3"
+
+#: inc/customizer.php:2370
+msgid "Team member #2 image"
+msgstr "Фотография участника команды № 2"
+
+#: inc/customizer.php:2587
+msgid "Team member #5 name"
+msgstr "Имя участника команды № 5"
+
+#: inc/customizer.php:2509
+msgid "Team member #4 name"
+msgstr "Имя участника команды № 4"
+
+#: inc/customizer.php:2431
+msgid "Team member #3 name"
+msgstr "Имя участника команды № 3"
+
+#: inc/customizer.php:2353
+msgid "Team member #2 name"
+msgstr "Имя участника команды № 2"
+
+#: inc/customizer.php:2570
+msgid "Team member #5"
+msgstr "Участник команды № 5"
+
+#: inc/customizer.php:2492
+msgid "Team member #4"
+msgstr "Участник команды № 4"
+
+#: inc/customizer.php:2414
+msgid "Team member #3"
+msgstr "Участник команды № 3"
+
+#: inc/customizer.php:2336
+msgid "Team member #2"
+msgstr "Участник команды № 2"
+
+#: inc/customizer.php:2622
+msgid "Team member #5 Facebook URL"
+msgstr "URL в Facebook участника команды № 5"
+
+#: inc/customizer.php:2544
+msgid "Team member #4 Facebook URL"
+msgstr "URL в Facebook участника команды № 4"
+
+#: inc/customizer.php:2466
+msgid "Team member #3 Facebook URL"
+msgstr "URL в Facebook участника команды № 3"
+
+#: inc/customizer.php:2388
+msgid "Team member #2 Facebook URL"
+msgstr "URL в Facebook участника команды № 2"
+
+#: inc/customizer.php:2639
+msgid "Team member #5 Dribbble URL"
+msgstr "URL в Dribbble участника команды № 5"
+
+#: inc/customizer.php:2561
+msgid "Team member #4 Dribbble URL"
+msgstr "URL в Dribbble участника команды № 4"
+
+#: inc/customizer.php:2483
+msgid "Team member #3 Dribbble URL"
+msgstr "URL в Dribbble участника команды № 3"
+
+#: inc/customizer.php:2405
+msgid "Team member #2 Dribbble URL"
+msgstr "URL в Dribbble участника команды № 2"
+
+#: inc/customizer.php:2157 sections/section-contact.php:5
+msgid "And we'll reply in no time"
+msgstr "И мы ответим в кратчайшие сроки"
+
+#: inc/customizer.php:2123
+msgid "Contact Section"
+msgstr "Раздел контактов"
+
+#: inc/customizer.php:2189
+msgid "Select the contact form you'd like to display (powered by Contact Form 7)"
+msgstr "Выберите контактную форму для отображения (используется Contact Form 7)"
+
+#: inc/customizer.php:2241 sections/section-team.php:5
+msgid "Meet the people that made it all happen."
+msgstr "Познакомьтесь с людьми, которые воплотили это в жизнь."
+
+#: inc/customizer.php:2209
+msgid "Team Section"
+msgstr "Раздел «Команда»"
+
+#: inc/customizer.php:2053 sections/section-news.php:3
+msgid "Latest news"
+msgstr "Последние новости"
+
+#: inc/customizer.php:2106
+msgid "Number of posts to display"
+msgstr "Число отображаемых сообщений"
+
+#: inc/customizer.php:2070 sections/section-news.php:4
+msgid "Straight from our blog"
+msgstr "Прямо с нашего блога"
+
+#: inc/customizer.php:1782 inc/customizer.php:2267 inc/customizer.php:2346
+#: inc/customizer.php:2424 inc/customizer.php:2502 inc/customizer.php:2580
+msgid "John Doe"
+msgstr "Джон Доу"
+
+#: inc/customizer.php:1414 inc/customizer.php:1479 inc/customizer.php:1544
+#: inc/customizer.php:1609
+msgid "Project big image"
+msgstr "Большое изображение проекта"
+
+#: inc/customizer.php:1100 sections/section-about.php:12
+msgid "Web development"
+msgstr "Веб-разработка"
+
+#: inc/customizer.php:1022 inc/customizer.php:1106 inc/customizer.php:1188
+#: inc/customizer.php:1270
+msgid "Heading for chart"
+msgstr "Заголовок диаграммы"
+
+#: inc/customizer.php:1710
+msgid "Testimonial #1"
+msgstr "Отзыв № 1"
+
+#: inc/customizer.php:1772
+msgid "Testimonial #2"
+msgstr "Отзыв № 2"
+
+#: inc/customizer.php:1835
+msgid "Testimonial #3"
+msgstr "Отзыв № 3"
+
+#: inc/customizer.php:1897
+msgid "Testimonial #4"
+msgstr "Отзыв № 4"
+
+#: inc/customizer.php:1959
+msgid "Testimonial #5"
+msgstr "Отзыв № 5"
+
+#: inc/customizer.php:1396
+msgid "Project #1"
+msgstr "Проект № 1"
+
+#: inc/customizer.php:1363 sections/section-works.php:3
+msgid "Recent works"
+msgstr "Свежие работы"
+
+#: inc/customizer.php:1349
+msgid "Recent Works Section"
+msgstr "Раздел свежих работ"
+
+#: inc/customizer.php:1460
+msgid "Project #2"
+msgstr "Проект № 2"
+
+#: inc/customizer.php:1525
+msgid "Project #3"
+msgstr "Проект № 3"
+
+#: inc/customizer.php:1590
+msgid "Project #4"
+msgstr "Проект № 4"
+
+#: inc/customizer.php:1664
+msgid "Testimonials Section"
+msgstr "Раздел отзывов"
+
+#: inc/customizer.php:1678 sections/section-testimonials.php:3
+msgid "Some words from our clients"
+msgstr "Несколько слов от наших клиентов"
+
+#: inc/customizer.php:1763 inc/customizer.php:1826 inc/customizer.php:1888
+#: inc/customizer.php:1950 inc/customizer.php:2012
+msgid "Testimonial person image"
+msgstr "Фотография автора отзыва"
+
+#: inc/customizer.php:1744 inc/customizer.php:1869 inc/customizer.php:1931
+#: inc/customizer.php:1993
+msgid "Testimonial person description"
+msgstr "Описание автора отзыва"
+
+#: inc/customizer.php:1726 inc/customizer.php:1789 inc/customizer.php:1807
+#: inc/customizer.php:1851 inc/customizer.php:1913 inc/customizer.php:1975
+msgid "Testimonial person name"
+msgstr "Имя автора отзыва"
+
+#: inc/customizer.php:1695
+msgid "We don't like to brag, others do it for us."
+msgstr "Мы не любим хвастаться, другие делают это за нас."
+
+#: inc/customizer.php:1264
+msgid "Graphic identity"
+msgstr "Фирменный стиль"
+
+#: inc/customizer.php:2028
+msgid "Latest News Section"
+msgstr "Раздел свежих новостей"
+
+#: inc/customizer.php:1451 inc/customizer.php:1516 inc/customizer.php:1581
+#: inc/customizer.php:1646
+msgid "Project URL (enter project link here)"
+msgstr "URL проекта (введите ссылку на проект)"
+
+#: inc/customizer.php:1433 inc/customizer.php:1498 inc/customizer.php:1563
+#: inc/customizer.php:1628
+msgid "Project logo image"
+msgstr "Логотип проекта "
+
+#: inc/customizer.php:1006
+msgid "Section Chart #1"
+msgstr "Диаграмма № 1"
+
+#: inc/customizer.php:1090
+msgid "Section Chart #2"
+msgstr "Диаграмма № 2"
+
+#: inc/customizer.php:1172
+msgid "Section Chart #3"
+msgstr "Диаграмма № 3"
+
+#: inc/customizer.php:1254
+msgid "Section Chart #4"
+msgstr "Диаграмма № 4"
+
+#: inc/customizer.php:1040 inc/customizer.php:1124 inc/customizer.php:1206
+#: inc/customizer.php:1288
+msgid "Chart Percentage"
+msgstr "Процент диаграммы"
+
+#: inc/customizer.php:1719 inc/customizer.php:1844 inc/customizer.php:1906
+#: inc/customizer.php:1968
+msgid "Katie Parry - Hooli"
+msgstr "Кэти Перри — Hooli"
+
+#: inc/customizer.php:1380
+msgid "It's show and tell time."
+msgstr "Время рассказать о себе."
+
+#: inc/customizer.php:1078 inc/customizer.php:1162 inc/customizer.php:1244
+#: inc/customizer.php:1326
+msgid "Chart Track color"
+msgstr "Цвет круга диаграммы"
+
+#: inc/customizer.php:1059 inc/customizer.php:1143 inc/customizer.php:1225
+#: inc/customizer.php:1307
+msgid "Chart bar color"
+msgstr "Цвет сектора диаграммы"
+
+#: inc/customizer.php:1736 inc/customizer.php:1799 inc/customizer.php:1861
+#: inc/customizer.php:1923 inc/customizer.php:1985
+msgid "Working with Pixova has been an experience for a lifetime. I strongly  reccommend these guys for their awesome support. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer volutpat eleifend convallis."
+msgstr "Работа с Pixova стала одним из лучших событий в моей жизни. Очень рекомендую этих ребят за их потрясающую поддержку. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer volutpat eleifend convallis."
+
+#: inc/customizer.php:731 inc/customizer.php:2042
+msgid "Button"
+msgstr "Кнопка"
+
+#: inc/customizer.php:997
+msgid "Blockquote"
+msgstr "Цитата"
+
+#: inc/customizer.php:826 sections/section-intro.php:10
+msgid "Development"
+msgstr "Разработка"
+
+#: inc/customizer.php:979
+msgid "Block of text"
+msgstr "Блок текста"
+
+#: inc/customizer.php:870 inc/customizer.php:1182 sections/section-intro.php:12
+msgid "Print design"
+msgstr "Полиграфический дизайн"
+
+#: inc/customizer.php:799 inc/customizer.php:843 inc/customizer.php:887
+#: sections/section-intro.php:9 sections/section-intro.php:11
+#: sections/section-intro.php:13
+msgid "Lorem ipsum dolor sit amet. Lorem ipsum."
+msgstr "Lorem ipsum dolor sit amet. Lorem ipsum."
+
+#: inc/customizer.php:782 inc/customizer.php:1016 sections/section-intro.php:8
+msgid "Web design"
+msgstr "Веб-дизайн"
+
+#: inc/customizer.php:764
+msgid "Button URL "
+msgstr "URL кнопки"
+
+#: inc/customizer.php:747
+msgid "Button text "
+msgstr "Текст кнопки"
+
+#: inc/customizer.php:961
+msgid "Section text"
+msgstr "Текст раздела"
+
+#: inc/customizer.php:951 inc/customizer.php:1387 inc/customizer.php:1702
+#: inc/customizer.php:2077 inc/customizer.php:2164 inc/customizer.php:2248
+msgid "Section sub-title"
+msgstr "Подзаголовок раздела"
+
+#: inc/customizer.php:934 inc/customizer.php:1370 inc/customizer.php:1685
+#: inc/customizer.php:2060 inc/customizer.php:2147 inc/customizer.php:2231
+msgid "Section title"
+msgstr "Заголовок раздела"
+
+#: inc/customizer.php:944
+msgid "This is what we do in a nutshell"
+msgstr "Кратко о том, что мы делаем"
+
+#: inc/customizer.php:918 inc/customizer.php:1354 inc/customizer.php:1669
+#: inc/customizer.php:2034 inc/customizer.php:2215
+msgid "Section Titles"
+msgstr "Заголовки раздела"
+
+#: inc/customizer.php:773
+msgid "What we do #1"
+msgstr "Что мы делаем № 1"
+
+#: inc/customizer.php:789
+msgid "What we do #1 title "
+msgstr "Что мы делаем № 1 — заголовок"
+
+#: inc/customizer.php:807
+msgid "What we do #1 description "
+msgstr "Что мы делаем № 1 — описание"
+
+#: inc/customizer.php:817
+msgid "What we do #2"
+msgstr "Что мы делаем № 2"
+
+#: inc/customizer.php:833
+msgid "What we do #2 title "
+msgstr "Что мы делаем № 2 — заголовок"
+
+#: inc/customizer.php:851
+msgid "What we do #2 description "
+msgstr "Что мы делаем № 2 — описание"
+
+#: inc/customizer.php:861
+msgid "What we do #3"
+msgstr "Что мы делаем № 3"
+
+#: inc/customizer.php:895
+msgid "What we do #3 description "
+msgstr "Что мы делаем № 3 — описание"
+
+#: inc/customizer.php:877
+msgid "What we do #3 title "
+msgstr "Что мы делаем № 3 — заголовок"
+
+#: inc/customizer.php:971 sections/section-about.php:7
+msgid "Creative ut tincidunt nibh, varius cursus nunc. Curabitur molestie, metus vel luctus euismod, mi libero laoreet odio, eu dapibus leo tortor sit amet purus. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+msgstr "Creative ut tincidunt nibh, varius cursus nunc. Curabitur molestie, metus vel luctus euismod, mi libero laoreet odio, eu dapibus leo tortor sit amet purus. Давно известно, что читаемый текст на странице отвлекает посетителя от её дизайна."
+
+#: inc/customizer.php:927 sections/section-about.php:3
+msgid "We build solutions for your everyday problems."
+msgstr "Мы создаём решения для повседневных проблем."
+
+#: inc/customizer.php:989 sections/section-about.php:8
+msgid "Working with Pixova has been an experience for a lifetime. I strongly reccommend these guys for their awesome support. Erlich Bachman, Aviato"
+msgstr "Работа с Pixova стала одним из лучших событий в моей жизни. Очень рекомендую этих ребят за их потрясающую поддержку. Эрлих Бахман, Авиато"
+
+#: inc/customizer.php:704
+msgid "Main CTA text "
+msgstr "Основной текст"
+
+#: inc/customizer.php:722
+msgid "Main CTA sub-title "
+msgstr "Подзаголовок"
+
+#: inc/customizer.php:696
+msgid "Probably the BEST FREE WordPress theme of all times. Now with WooCommerce Support"
+msgstr "Вероятно, лучшая бесплатная тема для WordPress за все времена. Теперь с  поддержкой WooCommerce."
+
+#: inc/customizer.php:714 sections/section-intro.php:4
+msgid "60fps smooth parallax header; Random header images (multiple images allowed here)."
+msgstr "Заголовок с плавным эффектом параллакс 60fps; Случайные изображения (можно несколько)."
+
+#: inc/customizer.php:2094
+msgid "Text"
+msgstr "Текст"
+
+#: inc/customizer.php:589
+msgid "CTA Section (big bg. image)"
+msgstr "Главный раздел (с фоном)"
+
+#: inc/customizer.php:482
+msgid "Phone number"
+msgstr "Номер телефона"
+
+#: inc/customizer.php:499 sections/section-contact.php:29
+msgid "Address"
+msgstr "Адрес"
+
+#: inc/customizer.php:493
+msgid "Street 221B Baker Street"
+msgstr "Бейкер-стрит, 221Б"
+
+#: inc/customizer.php:464
+msgid "Email"
+msgstr "Email"
+
+#: inc/customizer.php:446
+msgid "Contact Details"
+msgstr "Контактная информация"
+
+#: inc/customizer.php:257
+msgid "Pixova"
+msgstr "Pixova"
+
+#: inc/customizer.php:246
+msgid "General"
+msgstr "Основные"
+
+#: inc/customizer.php:236
+msgid "Theme options"
+msgstr "Настройки темы"
+
+#: inc/customizer.php:85
+msgid "Google Maps"
+msgstr "Карты Google"
+
+#: inc/custom-controls.php:323
+msgid "Add a review"
+msgstr "Добавить отзыв"
+
+#: inc/custom-controls.php:323
+msgid "https://wordpress.org/support/view/theme-reviews/pixova-lite#postform/"
+msgstr "https://wordpress.org/support/view/theme-reviews/pixova-lite#postform/"
+
+#: inc/customizer.php:172
+msgid "Display the testimonials section ?"
+msgstr "Отображать раздел отзывов?"
+
+#: inc/customizer.php:188
+msgid "Display the team section ?"
+msgstr "Отображать раздел команды?"
+
+#: inc/customizer.php:204
+msgid "Display the news section ?"
+msgstr "Отображать раздел новостей?"
+
+#: inc/customizer.php:220
+msgid "Display the contact section ?"
+msgstr "Отображать раздел контактов?"
+
+#: inc/customizer.php:156
+msgid "Display the works section ?"
+msgstr "Отображать раздел проектов?"
+
+#: inc/customizer.php:108
+msgid "Section visibility"
+msgstr "Видимость разделов"
+
+#: inc/customizer.php:45
+msgid "Section order"
+msgstr "Порядок разделов"
+
+#: inc/custom-controls.php:277 inc/extras.php:126
+msgid "Theme Documentation"
+msgstr "Документация к теме"
+
+#: inc/customizer.php:124
+msgid "Display the Intro section ?"
+msgstr "Отображать раздел вступления?"
+
+#: inc/custom-controls.php:166
+msgid "No contact forms found"
+msgstr "Контактных форм не найдено"
+
+#: inc/custom-controls.php:181
+msgid "Select your contact form"
+msgstr "Выберите контактную форму"
+
+#: inc/customizer.php:65
+msgid "Pricing tables"
+msgstr "Прайс-листы"
+
+#: inc/custom-controls.php:251
+msgid "In order to be able to add pricing tables, you need to upgrade to the PRO version."
+msgstr "Чтобы иметь возможность добавлять прайс-листы, необходимо перейти на PRO-версию."
+
+#: inc/custom-controls.php:228
+msgid "In order to be able to add Google Maps, you need to upgrade to the PRO version."
+msgstr "Чтобы иметь возможность добавлять карты Google, необходимо перейти на PRO-версию."
+
+#: inc/custom-controls.php:205
+msgid "In order to be able to change the section order, you need to upgrade to the PRO version."
+msgstr "Чтобы иметь возможность менять порядок разделов, необходимо перейти на PRO-версию."
+
+#: inc/custom-controls.php:281
+msgid "By upgrading to the PRO version you are unlocking the full potential of Pixova. You will get: unlimited sliders / carousels, unlimited Google Maps, Unlimited Team Members, Section Ordering, Control over theme typography and colors. Upgrade NOW!"
+msgstr "При обновлении до версии PRO вы разблокируете весь потенциал темы Pixova. Вы получите: любое количество слайдеров и каруселей, любое количество карт Google, любое количество участников команды, возможность изменения порядка разделов, контроль над типографикой темы и цветами. Обновите тему сейчас!"
+
+#. Translators: If there are characters in your language that are not supported
+#. by Inconsolata, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:573
+msgctxt "Inconsolata font: on or off"
+msgid "on"
+msgstr "on"
+
+#. Translators: To add an additional character subset specific to your
+#. language, translate this to 'greek', 'cyrillic', 'devanagari' or
+#. 'vietnamese'. Do not translate into your own language.
+#: functions.php:581
+msgctxt "Add new subset (latin-extended, vietnamese)"
+msgid "no-subset"
+msgstr "cyrillic"
+
+#: inc/back-compat.php:42 inc/back-compat.php:55 inc/back-compat.php:72
+msgid "Pixova Lite requires at least WordPress version 4.1. You are running version %s. Please upgrade and try again."
+msgstr "Тема Pixova Lite требует WordPress 4.1 или выше. У вас версия %s. Пожалуйста, обновите WordPress и попробуйте ещё раз."
+
+#: functions.php:526 functions.php:527
+msgid "Shop"
+msgstr "Магазин"
+
+#. Translators: If there are characters in your language that are not supported
+#. by Source Sans Pro Sans Serif, translate this to 'off'. Do not translate
+#. into your own language.
+#. Translators: If there are characters in your language that are not supported
+#. by Souce Sans Pro Sans Serif, translate this to 'off'. Do not translate into
+#. your own language.
+#: functions.php:557 functions.php:565
+msgctxt "Source Sans Pro font: on or off"
+msgid "on"
+msgstr "on"
+
+#: functions.php:506 functions.php:507
+msgid "Team"
+msgstr "Команда"
+
+#: functions.php:461
+msgid "All plugins installed and activated successfully. %s"
+msgstr "Все плагины успешно установлены и активированы. %s"
+
+#: functions.php:500 functions.php:501
+msgid "Testimonials"
+msgstr "Отзывы"
+
+#: functions.php:494 functions.php:495
+msgid "Recent Works"
+msgstr "Свежие работы"
+
+#: functions.php:460 inc/plugin-activation.php:399
+#: inc/plugin-activation.php:3029
+msgid "Plugin activated successfully."
+msgstr "Плагин успешно активирован."
+
+#: functions.php:459 inc/plugin-activation.php:397
+msgid "Return to Required Plugins Installer"
+msgstr "Вернуться к установщику необходимых плагинов"
+
+#: functions.php:458 inc/plugin-activation.php:392
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "Начать активацию плагина"
+msgstr[1] "Начать активацию плагинов"
+msgstr[2] "Начать активацию плагинов"
+
+#: functions.php:457 inc/plugin-activation.php:382
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "Начать установку плагина"
+msgstr[1] "Начать установку плагинов"
+msgstr[2] "Начать установку плагинов"
+
+#: functions.php:455 inc/plugin-activation.php:352
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] "Следующий плагин необходимо обновить до текущей версии для максимальной совместимости с этой темой: %1$s."
+msgstr[1] "Следующие плагины необходимо обновить до текущей версии для максимальной совместимости с этой темой: %1$s."
+msgstr[2] "Следующие плагины необходимо обновить до текущей версии для максимальной совместимости с этой темой: %1$s."
+
+#: functions.php:456
+msgid "Sorry, but you do not have the correct permissions to update the %s plugin. Contact the administrator of this site for help on getting the plugin updated."
+msgid_plural "Sorry, but you do not have the correct permissions to update the %s plugins. Contact the administrator of this site for help on getting the plugins updated."
+msgstr[0] "Извините, у вас недостаточно полномочий, чтобы обновить плагин %s. Обратитесь к администратору сайта за помощью с обновлением."
+msgstr[1] "Извините, у вас недостаточно полномочий, чтобы обновить плагины %s. Обратитесь к администратору сайта за помощью с обновлением."
+msgstr[2] "Извините, у вас недостаточно полномочий, чтобы обновить плагины %s. Обратитесь к администратору сайта за помощью с обновлением."
+
+#: functions.php:454
+msgid "Sorry, but you do not have the correct permissions to activate the %s plugin. Contact the administrator of this site for help on getting the plugin activated."
+msgid_plural "Sorry, but you do not have the correct permissions to activate the %s plugins. Contact the administrator of this site for help on getting the plugins activated."
+msgstr[0] "Извините, у вас недостаточно полномочий, чтобы активировать плагин %s. Обратитесь к администратору сайта за помощью с активацией."
+msgstr[1] "Извините, у вас недостаточно полномочий, чтобы активировать плагины %s. Обратитесь к администратору сайта за помощью с активацией."
+msgstr[2] "Извините, у вас недостаточно полномочий, чтобы активировать плагины %s. Обратитесь к администратору сайта за помощью с активацией."
+
+#: functions.php:453 inc/plugin-activation.php:372
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] "Следующий рекомендованный плагин на текущий момент неактивен: %1$s."
+msgstr[1] "Следующие рекомендованные плагины на текущий момент неактивны: %1$s."
+msgstr[2] "Следующие рекомендованные плагины на текущий момент неактивны: %1$s."
+
+#: functions.php:451
+msgid "Sorry, but you do not have the correct permissions to install the %s plugin. Contact the administrator of this site for help on getting the plugin installed."
+msgid_plural "Sorry, but you do not have the correct permissions to install the %s plugins. Contact the administrator of this site for help on getting the plugins installed."
+msgstr[0] "Извините, у вас недостаточно полномочий, чтобы установить плагин %s. Обратитесь к администратору сайта за помощью с установкой."
+msgstr[1] "Извините, у вас недостаточно полномочий, чтобы установить плагины %s. Обратитесь к администратору сайта за помощью с установкой."
+msgstr[2] "Извините, у вас недостаточно полномочий, чтобы установить плагины %s. Обратитесь к администратору сайта за помощью с установкой."
+
+#: functions.php:452 inc/plugin-activation.php:367
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] "Следующий необходимый плагин на текущий момент неактивен: %1$s."
+msgstr[1] "Следующие необходимые плагины на текущий момент неактивны: %1$s."
+msgstr[2] "Следующие необходимые плагины на текущий момент неактивны: %1$s."
+
+#: functions.php:450 inc/plugin-activation.php:342
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] "Эта тема рекомендует к установке следующий плагин: %1$s."
+msgstr[1] "Эта тема рекомендует к установке следующие плагины: %1$s."
+msgstr[2] "Эта тема рекомендует к установке следующие плагины: %1$s."
+
+#: functions.php:449 inc/plugin-activation.php:337
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] "Эта тема требует следующий плагин: %1$s."
+msgstr[1] "Эта тема требует следующие плагины: %1$s."
+msgstr[2] "Эта тема требует следующие плагины: %1$s."
+
+#: functions.php:448 inc/plugin-activation.php:336
+msgid "Something went wrong with the plugin API."
+msgstr "Что-то пошло не так с API плагинов."
+
+#: functions.php:447 inc/plugin-activation.php:335
+msgid "Installing Plugin: %s"
+msgstr "Установка плагина: %s"
+
+#: functions.php:446 inc/plugin-activation.php:334
+msgid "Install Plugins"
+msgstr "Установить плагины"
+
+#: functions.php:445 inc/plugin-activation.php:333
+msgid "Install Required Plugins"
+msgstr "Установка необходимых плагинов"
+
+#: functions.php:120
+msgid "Footer Menu"
+msgstr "Меню в подвале"
+
+#: functions.php:119
+msgid "Header Menu"
+msgstr "Меню в заголовке"
+
+#: footer.php:79
+msgid "Top"
+msgstr "Сверху"
+
+#. #-#-#-#-#  pixova-lite.pot (Pixova Lite 1.34.17)  #-#-#-#-#
+#. Author of the plugin/theme
+#: footer.php:67 inc/extras.php:428
+msgid "Macho Themes"
+msgstr "Macho Themes"
+
+#: inc/customizer.php:302
+msgid "Copyright"
+msgstr "Copyright"
+
+#: footer.php:47
+msgid "Latest Posts"
+msgstr "Свежие посты"
+
+#: footer.php:39
+msgid "Follow us"
+msgstr "Подписаться"
+
+#: footer.php:23 widgets/widget-about-sm.php:79
+msgid "About us"
+msgstr "О нас"
+
+#: footer.php:27 functions.php:512 functions.php:513
+msgid "News"
+msgstr "Новости"
+
+#: footer.php:25
+msgid "Link to article"
+msgstr "Ссылка на статью"
+
+#: footer.php:24
+msgid "Docs and Fax"
+msgstr "Документы и факсы"
+
+#: footer.php:21
+msgid "Quick Nav"
+msgstr "Быстрый переход"
+
+#: footer.php:28 functions.php:518 functions.php:519
+msgid "Contact"
+msgstr "Контакт"
+
+#: footer.php:26
+msgid "Frequently asked"
+msgstr "ЧАВО"
+
+#: footer.php:11
+msgid "The many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected true of a humour"
+msgstr "Существует много вариантов абзацев Lorem Ipsum, но большинство из них были в той или иной форме изменены с добавлением юмора"
+
+#: footer.php:11 functions.php:488 functions.php:489
+msgid "About"
+msgstr "О плагине"
+
+#: template-parts/content-single.php:85
+msgid "About the author: "
+msgstr "Об авторе:"
+
+#: template-parts/content-none.php:18
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Запрошенную информацию найти не удалось. Возможно, будет полезен поиск по сайту."
+
+#: template-parts/content-none.php:13
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Извините, по вашему запросу ничего не найдено. Попробуйте другие ключевые слова."
+
+#: template-parts/content-none.php:9
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Готовы опубликовать свою первую запись? <a href=\"%1$s\">Начните отсюда</a>."
+
+#: template-parts/content-none.php:3
+msgid "Nothing Found"
+msgstr "Не найдено"
+
+#: comments.php:56
+msgid "Comments are closed."
+msgstr "Комментарии запрещены."
+
+#: comments.php:23 comments.php:44
+msgid "Newer Comments"
+msgstr "Следующие комментарии"
+
+#: comments.php:22 comments.php:43
+msgid "Older Comments"
+msgstr "Предыдущие комментарии"
+
+#: comments.php:19 comments.php:40
+msgid "Comment navigation"
+msgstr "Навигация по комментариям"
+
+#: author.php:55
+msgid "Posted in:"
+msgstr "размещено в:"
+
+#: archive.php:64 author.php:100 home.php:66 index.php:67
+#: page-templates/blog-template.php:35 page-templates/sidebar-left.php:24
+#: page-templates/sidebar-right.php:42 search.php:66
+#: template-parts/content-search.php:53 template-parts/content-single.php:66
+msgid "Calendar"
+msgstr "Календарь"
+
+#: archive.php:63 author.php:99 home.php:65 index.php:66
+#: page-templates/blog-template.php:34 page-templates/sidebar-left.php:23
+#: page-templates/sidebar-right.php:41 search.php:65
+#: template-parts/content-search.php:52 template-parts/content-single.php:65
+msgid "Search"
+msgstr "Поиск"
+
+#: archive.php:43 author.php:80 front-page.php:23 home.php:44 index.php:44
+#: page-templates/sidebar-left.php:41 page-templates/sidebar-right.php:26
+#: page.php:16 search.php:44 template-parts/content-search.php:35
+#: template-parts/content-single.php:48 template-parts/content.php:30
+msgid "Pages:"
+msgstr "Страницы:"
+
+#: archive.php:25 author.php:20 author.php:49 search.php:26
+#: template-parts/content-search.php:16 template-parts/content-single.php:33
+#: template-parts/content.php:12
+msgid "Written by: "
+msgstr "﻿Автор:"
+
+#: archive.php:27 search.php:28 template-parts/content-search.php:18
+#: template-parts/content-single.php:35 template-parts/content.php:14
+msgid "Posted in: "
+msgstr "размещено в:"
+
+#: archive.php:29 author.php:62 home.php:30 index.php:30 search.php:30
+#: template-parts/content-search.php:20 template-parts/content-single.php:37
+#: template-parts/content.php:16
+msgid "Tags:"
+msgstr "Теги: "
+
+#: 404.php:15
+msgid "It looks like nothing was found at this location. Maybe try a better search?"
+msgstr "По данному адресу ничего не найдено. Попробуйте поискать по другим ключевым словам."
+
+#: 404.php:11
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Ой! Страница не найдена."
+
+#. Author URI of the plugin/theme
+msgid "http://www.machothemes.com/"
+msgstr "http://www.machothemes.com/"
+
+#. #-#-#-#-#  pixova-lite.pot (Pixova Lite 1.34.17)  #-#-#-#-#
+#. Theme URI of the plugin/theme
+#: footer.php:65
+msgid "http://www.machothemes.com/themes/pixova-lite/"
+msgstr "http://www.machothemes.com/themes/pixova-lite/"

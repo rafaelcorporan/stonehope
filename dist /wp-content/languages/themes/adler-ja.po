@@ -1,0 +1,620 @@
+# Translation of Themes - Adler in Japanese
+# This file is distributed under the same license as the Themes - Adler package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-07-01 05:54:14+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: ja_JP\n"
+"Project-Id-Version: Themes - Adler\n"
+
+#. Description of the plugin/theme
+msgid "Adler is a personal blogging theme for sharing your own thoughts and write about your latest findings!"
+msgstr "Adler はあなた自身の考えを共有し、あなたの最新の知見を書くための個人的なブログテーマです。"
+
+#. Theme Name of the plugin/theme
+msgid "Adler"
+msgstr "Adler"
+
+#: templates/toolbar.php:26
+msgid "Begin typing your search above and press return to search. Press Esc to cancel."
+msgstr "上記の検索を入力して、検索に戻るには、Enter キーを押します。キャンセルするには Esc キーを押します。"
+
+#: templates/toolbar.php:7
+msgid "Social navigation"
+msgstr "ソーシャルナビゲーション"
+
+#: templates/toolbar.php:5
+msgid "Search"
+msgstr "検索"
+
+#: functions.php:45
+msgid "Social Menu"
+msgstr "ソーシャルメニュー"
+
+#: inc/template-tags.php:193
+msgid "Archives"
+msgstr "アーカイブ"
+
+#. translators: 1: Taxonomy singular name, 2: Current taxonomy term
+#: inc/template-tags.php:191
+msgid "%1$s: %2$s"
+msgstr "%1$s: %2$s"
+
+#: inc/template-tags.php:187
+msgid "Archives: %s"
+msgstr "アーカイブ: %s"
+
+#: inc/template-tags.php:184
+msgctxt "post format archive title"
+msgid "Chats"
+msgstr "チャット"
+
+#: inc/template-tags.php:182
+msgctxt "post format archive title"
+msgid "Audio"
+msgstr "音声"
+
+#: inc/template-tags.php:180
+msgctxt "post format archive title"
+msgid "Statuses"
+msgstr "ステータス"
+
+#: inc/template-tags.php:178
+msgctxt "post format archive title"
+msgid "Links"
+msgstr "リンク"
+
+#: inc/template-tags.php:176
+msgctxt "post format archive title"
+msgid "Quotes"
+msgstr "引用"
+
+#: inc/template-tags.php:174
+msgctxt "post format archive title"
+msgid "Videos"
+msgstr "動画"
+
+#: inc/template-tags.php:172
+msgctxt "post format archive title"
+msgid "Images"
+msgstr "画像"
+
+#: inc/template-tags.php:170
+msgctxt "post format archive title"
+msgid "Galleries"
+msgstr "ギャラリー"
+
+#: inc/template-tags.php:168
+msgctxt "post format archive title"
+msgid "Asides"
+msgstr "アサイド"
+
+#: inc/template-tags.php:165
+msgctxt "daily archives date format"
+msgid "F j, Y"
+msgstr "Y年n月j日"
+
+#: inc/template-tags.php:165
+msgid "Day: %s"
+msgstr "﻿日別: %s"
+
+#: inc/template-tags.php:163
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "Y年n月"
+
+#: inc/template-tags.php:163
+msgid "Month: %s"
+msgstr "月別: %s"
+
+#: inc/template-tags.php:161
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y年"
+
+#: inc/template-tags.php:161
+msgid "Year: %s"
+msgstr "﻿年別: %s"
+
+#: inc/template-tags.php:159
+msgid "Author: %s"
+msgstr "作者別: %s"
+
+#: inc/template-tags.php:157
+msgid "Tag: %s"
+msgstr "タグ: %s"
+
+#: inc/template-tags.php:155
+msgid "Category: %s"
+msgstr "カテゴリー: %s"
+
+#: inc/template-tags.php:134
+msgid "% Comments"
+msgstr "%件のコメント"
+
+#: inc/template-tags.php:134
+msgid "1 Comment"
+msgstr "1件のコメント"
+
+#: inc/template-tags.php:134
+msgid "Leave a comment"
+msgstr "コメントをする"
+
+#: inc/template-tags.php:128
+msgid "Tagged %1$s"
+msgstr "タグ:  %1$s"
+
+#: inc/template-tags.php:122
+msgid "Posted in %1$s"
+msgstr "カテゴリー: %1$s"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:120 inc/template-tags.php:126
+msgid ", "
+msgstr "・"
+
+#: inc/template-tags.php:104
+msgctxt "post date"
+msgid "%s"
+msgstr "%s"
+
+#: inc/template-tags.php:56
+msgid "Post navigation"
+msgstr "投稿ナビゲーション"
+
+#: inc/template-tags.php:31
+msgid "Newer posts"
+msgstr "新しい投稿"
+
+#: inc/template-tags.php:27
+msgid "Older posts"
+msgstr "過去の投稿"
+
+#: inc/template-tags.php:23
+msgid "Posts navigation"
+msgstr "投稿ナビゲーション"
+
+#: inc/required-plugins/required-plugins.php:70
+msgid "All plugins installed and activated successfully. %s"
+msgstr "すべてのプラグインのインストール・有効化が完了しました: %s"
+
+#: inc/required-plugins/required-plugins.php:67
+msgid "Activate installed plugin"
+msgid_plural "Activate installed plugins"
+msgstr[0] "インストール済みプラグインを有効化"
+
+#: inc/required-plugins/required-plugins.php:49
+msgid "Something went wrong with the plugin API."
+msgstr "プラグイン API で問題が発生しました。"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:2064
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "プラグインをインストール中 %1$s (%2$d/%3$d)"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:2063
+msgid "All installations have been completed."
+msgstr "すべてのインストールが完了しました。"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:2062
+msgid "%1$s installed successfully."
+msgstr "%1$s を正常にインストールしました。"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:2061
+msgid "The installation of %1$s failed."
+msgstr "%1$s のインストールに失敗しました。"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:2060
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "<strong>%2$s</strong>%1$s のインストール中にエラーが発生しました。"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:2059
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "更新プロセスを開始しています。サーバーによっては少し時間がかかるかもしれません。しばらくお待ちください。"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:2055
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "プラグインをインストール、有効化中 %1$s (%2$d/%3$d)"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:2054
+msgid "All installations and activations have been completed."
+msgstr "すべてのインストールと有効化が完了しました。"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:2053
+#: inc/required-plugins/class-tgm-plugin-activation.php:2062
+msgid "Hide Details"
+msgstr "詳細を非表示"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:2053
+#: inc/required-plugins/class-tgm-plugin-activation.php:2062
+msgid "Show Details"
+msgstr "詳細を表示"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:2053
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s を正常にインストールし、有効化しました。"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:2052
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "インストールと有効化プロセスを開始しています。サーバーによっては少し時間がかかるかもしれません。しばらくお待ちください。"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:1938
+msgid "Plugin activation failed."
+msgstr "プラグインの有効化に失敗しました。"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:1927
+msgid "Plugin installed successfully."
+msgstr "プラグインのインストールが完了しました。"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:1926
+msgid "Plugin install failed."
+msgstr "プラグインのインストールに失敗しました。"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:1925
+msgid "Installing the plugin&#8230;"
+msgstr "プラグインをインストールしています…"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:1924
+msgid "Unpacking the package&#8230;"
+msgstr "パッケージを展開しています…"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:1923
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr "<span class=\"code\">%s</span> からインストールパッケージをダウンロードしています…"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:1922
+msgid "Install package not available."
+msgstr "インストールパッケージがありません。"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:1377
+msgid "Status"
+msgstr "状態"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:1376
+msgid "Type"
+msgstr "タイプ"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:1375
+msgid "Source"
+msgstr "ソース"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:1374
+msgid "Plugin"
+msgstr "プラグイン"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:1358
+msgid "No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the Dashboard\">Return to the Dashboard</a>"
+msgstr "インストールまたは有効化すべきプラグインはありません。 <a href=\"%1$s\" title=\"Return to the Dashboard\">ダッシュボードに戻る</a>"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:1309
+#: inc/required-plugins/class-tgm-plugin-activation.php:1396
+msgid "Activate"
+msgstr "有効化"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:1287
+#: inc/required-plugins/class-tgm-plugin-activation.php:1395
+msgid "Install"
+msgstr "インストール"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:1182
+msgid "Installed But Not Activated"
+msgstr "停止中"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:1180
+msgid "Not Installed"
+msgstr "未インストール"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:1177
+msgid "Recommended"
+msgstr "推奨"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:1177
+msgid "Required"
+msgstr "必須"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:1174
+msgid "WordPress Repository"
+msgstr "WordPress 公式ディレクトリ"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:1169
+msgid "Pre-Packaged"
+msgstr "プリパッケージ"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:1166
+msgid "Private Repository"
+msgstr "プライベート リポジトリ"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:531
+#: inc/required-plugins/class-tgm-plugin-activation.php:2156
+msgid "Return to the Dashboard"
+msgstr "ダッシュボードに戻る"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:180
+msgid "Dismiss this notice"
+msgstr "無視する"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:179
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "すべてのプラグインを正常にインストールし、有効化しました。 %1$s"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:178
+#: inc/required-plugins/class-tgm-plugin-activation.php:1630
+msgid "The following plugin was activated successfully:"
+msgstr "以下のプラグインを有効化しました:"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:177
+#: inc/required-plugins/class-tgm-plugin-activation.php:1939
+#: inc/required-plugins/required-plugins.php:69
+msgid "Plugin activated successfully."
+msgstr "プラグインを有効化しました。"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:176
+msgid "Return to the dashboard"
+msgstr "ダッシュボードに戻る"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:175
+#: inc/required-plugins/required-plugins.php:68
+msgid "Return to Required Plugins Installer"
+msgstr "必須プラグインのインストール画面に戻る"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:174
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "プラグインの有効化を開始"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:173
+#: inc/required-plugins/required-plugins.php:66
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "プラグインのインストールを開始"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:172
+#: inc/required-plugins/required-plugins.php:64
+msgid "Sorry, but you do not have the correct permissions to update the %s plugin. Contact the administrator of this site for help on getting the plugin updated."
+msgid_plural "Sorry, but you do not have the correct permissions to update the %s plugins. Contact the administrator of this site for help on getting the plugins updated."
+msgstr[0] "%sプラグインを更新する適切な権限がありません。プラグインを更新するには、サイトの管理者にお問い合わせください。"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:171
+#: inc/required-plugins/required-plugins.php:62
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] "%1$s プラグインは、このテーマとの互換性を完全にするために最新バージョンへの更新が必要です。"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:170
+#: inc/required-plugins/required-plugins.php:60
+msgid "Sorry, but you do not have the correct permissions to activate the %s plugin. Contact the administrator of this site for help on getting the plugin activated."
+msgid_plural "Sorry, but you do not have the correct permissions to activate the %s plugins. Contact the administrator of this site for help on getting the plugins activated."
+msgstr[0] "%sプラグインを有効化する適切な権限がありません。プラグインを有効化する方法については、このサイトの管理者にお問い合わせください。"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:169
+#: inc/required-plugins/required-plugins.php:58
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] "推奨プラグインが現在無効です: %1$s。"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:168
+#: inc/required-plugins/required-plugins.php:56
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] "必須プラグインが現在無効です: %1$s。"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:167
+#: inc/required-plugins/required-plugins.php:54
+msgid "Sorry, but you do not have the correct permissions to install the %s plugin. Contact the administrator of this site for help on getting the plugin installed."
+msgid_plural "Sorry, but you do not have the correct permissions to install the %s plugins. Contact the administrator of this site for help on getting the plugins installed."
+msgstr[0] "%sプラグインをインストールする適切な権限がありません。プラグインをインストールするには、サイトの管理者にお問い合わせください。"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:166
+#: inc/required-plugins/required-plugins.php:52
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] "このテーマは、以下のプラグインの利用を推奨しています: %1$s。"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:165
+#: inc/required-plugins/required-plugins.php:50
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] "このテーマは、以下のプラグインの利用が必要です: %1$s。"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:164
+msgid "Something went wrong."
+msgstr "問題が発生しました。"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:163
+#: inc/required-plugins/required-plugins.php:47
+msgid "Installing Plugin: %s"
+msgstr "プラグインをインストール中: %s"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:162
+#: inc/required-plugins/required-plugins.php:46
+msgid "Install Plugins"
+msgstr "プラグインのインストール"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:161
+#: inc/required-plugins/required-plugins.php:45
+msgid "Install Required Plugins"
+msgstr "必要なプラグインのインストール"
+
+#. translators: To add an additional character subset specific to your
+#. language, translate this to 'greek', 'cyrillic', 'devanagari' or
+#. 'vietnamese'. Do not translate into your own language.
+#: inc/extras.php:127
+msgctxt "Add new subset (greek, cyrillic, devanagari, vietnamese)"
+msgid "no-subset"
+msgstr "no-subset"
+
+#. Translators: If there are characters in your language that are not supported
+#. by Droid Sans Mono, translate this to 'off'. Do not translate into your own
+#. language.
+#: inc/extras.php:122
+msgctxt "Droid Sans Mono font: on or off"
+msgid "on"
+msgstr "on"
+
+#. Translators: If there are characters in your language that are not supported
+#. by Permanent Marker, translate this to 'off'. Do not translate into your own
+#. language.
+#: inc/extras.php:114
+msgctxt "Permanent Marker font: on or off"
+msgid "on"
+msgstr "on"
+
+#. Translators: If there are characters in your language that are not supported
+#. by Droid Serif, translate this to 'off'. Do not translate into your own
+#. language.
+#: inc/extras.php:106
+msgctxt "Droid Serif font: on or off"
+msgid "on"
+msgstr "on"
+
+#: inc/customify_config.php:64
+msgid "Body Color"
+msgstr "Bodyの色"
+
+#: inc/customify_config.php:49
+msgid "Headings Color"
+msgstr "見出しの色"
+
+#: inc/customify_config.php:37
+msgid "Links Color"
+msgstr "リンクカラー"
+
+#: inc/customify_config.php:33
+msgid "Colors"
+msgstr "色"
+
+#: inc/customify_config.php:28
+msgid "Main Logo"
+msgstr "メインロゴ"
+
+#: inc/customify_config.php:24
+msgid "Logo"
+msgstr "ロゴ"
+
+#: inc/customify_config.php:21
+msgid "General Settings"
+msgstr "一般設定"
+
+#: functions.php:134 inc/extras.php:52
+msgid "Page %s"
+msgstr "ページ %s"
+
+#: functions.php:107
+msgid "Widgets in this area will be shown in the footer of the page."
+msgstr "このエリアのウィジェットは、ページのフッターに表示されます。"
+
+#: functions.php:105
+msgid "Footer Area"
+msgstr "フッターエリア"
+
+#: functions.php:43
+msgid "Primary Menu"
+msgstr "メインメニュー"
+
+#: footer.php:19 functions.php:44
+msgid "Footer Menu"
+msgstr "フッターメニュー"
+
+#: footer.php:14
+msgid "Theme: %1$s by %2$s."
+msgstr "Theme: %1$s by %2$s."
+
+#: footer.php:12
+msgid "Proudly powered by %s"
+msgstr "Proudly powered by %s"
+
+#. translators: %s: Name of current post
+#: content.php:28
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "続きを読む %s <span class=\"meta-nav\">&rarr;</span>"
+
+#: content-page.php:24 inc/template-tags.php:138
+msgid "Edit"
+msgstr "編集"
+
+#: content-none.php:28
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "お探しのコンテンツを見つけられませんでした。検索をお試しください。"
+
+#: content-none.php:23
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "ご指定の検索条件に一致する投稿がありませんでした。他のキーワードでもう一度検索してみてください。"
+
+#: content-none.php:19
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "最初の投稿をする準備ができましたか ?  <a href=\"%1$s\">ここからスタート</a>してください。"
+
+#: content-none.php:13
+msgid "Nothing Found"
+msgstr "見つかりませんでした"
+
+#: content-hero.php:69 content-page.php:16 content-single.php:14 content.php:35
+msgid "Pages:"
+msgstr "ページ: "
+
+#: content-hero.php:64
+msgid "Read More"
+msgstr "続きを読む"
+
+#: content-hero.php:60
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "続きを読む <span class=\"meta-nav\">&rarr;</span>"
+
+#: content-hero.php:32 inc/template-tags.php:82 templates/single/hero.php:34
+#: templates/single/hero.php:72
+msgid "View all posts in %s"
+msgstr "%s の投稿をすべて表示"
+
+#: comments.php:71
+msgid "Comments are closed."
+msgstr "コメントは受け付けていません。"
+
+#: comments.php:38 comments.php:59
+msgid "Newer Comments"
+msgstr "新しいコメント"
+
+#: comments.php:37 comments.php:58
+msgid "Older Comments"
+msgstr "過去のコメント"
+
+#: comments.php:34 comments.php:55
+msgid "Comment navigation"
+msgstr "コメントナビゲーション"
+
+#: comments.php:27
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "&ldquo;%2$s&rdquo; への%1$s件のフィードバック"
+
+#. translators: %1$s: smiley
+#: 404.php:44
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "月別アーカイブを探してみてください %1$s"
+
+#: 404.php:27
+msgid "Most Used Categories"
+msgstr "よく使われているカテゴリー"
+
+#: 404.php:19
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "ここにはなにもないようです。下記のリンクまたは検索を試してみてください。"
+
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "このページは見つかりません。"
+
+#. Author URI of the plugin/theme
+msgid "http://pixelgrade.com"
+msgstr "http://pixelgrade.com"
+
+#. Author of the plugin/theme
+msgid "PixelGrade"
+msgstr "PixelGrade"
+
+#. Theme URI of the plugin/theme
+msgid "http://pixelgrade.com/demos/adler/"
+msgstr "http://pixelgrade.com/demos/adler/"

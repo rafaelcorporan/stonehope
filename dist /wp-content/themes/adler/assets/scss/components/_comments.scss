@@ -1,0 +1,36 @@
+#comments {
+  max-width: 600px;
+  margin: 0 auto;
+  textarea {
+    width: 100%;
+  }
+}
+
+.reply {
+  position: absolute;
+  right: 0;
+  top: 10px;
+}
+
+.comment-list li {
+  position: relative;
+  &.bypostauthor {
+    background: $lightest;
+    padding: 10px;
+    margin-bottom: 10px;
+    .reply {
+      right: 10px;
+    }
+
+  }
+}
+
+.comment-form-comment {
+  position: relative;
+}
+
+label[for=comment] {
+  position: absolute;
+  left: 0;
+  top: -30px;
+}

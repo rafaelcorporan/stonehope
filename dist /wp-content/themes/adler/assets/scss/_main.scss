@@ -1,0 +1,56 @@
+// Settings     -- Default, settings and variables.
+// Tools        -- Functions and mixins.
+// Generic      -- Generic, high-level styling, like resets, etc.
+// Object       -- Objects and abstractions.
+// Components   -- Your designed UI elements.
+// Trumps       -- Overrides and helper classes.
+// Pages        -- Global styles for specific pages
+// Vendor
+// Shame        -- the place for prototyping, quick fixes and overrides
+
+// #SETTINGS
+@import "settings";
+
+// #TOOLS
+@import "tools/queries";
+@import "tools/functions";
+@import "tools/baseline";
+@import "tools/mixins";
+
+// #GENERIC
+@import "generic/normalize";
+@import "generic/reset";
+
+// #BASE
+@import "base/type";
+
+// #LAYOUT
+@import "layout/general";
+@import "layout/archive";
+@import "layout/page";
+@import "layout/single";
+@import "layout/posts";
+@import "layout/categories";
+@import "layout/error404";
+@import "layout/nocontent";
+@import "layout/search-results";
+
+// #COMPONENTS
+@import "components/variables";
+@import "components/header";
+@import "components/hero";
+@import "components/comments";
+@import "components/footer";
+@import "components/toolbar";
+
+
+// #TRUMPS
+@import "trumps/specific";
+@import "trumps/wp-align";
+
+// #OBJECTS
+
+// #PAGES
+
+// #SHAME
+@import "shame";

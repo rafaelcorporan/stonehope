@@ -1,0 +1,181 @@
+%header {
+  h2 {
+    margin-bottom: 0px;
+  }
+}
+
+%no-bullets {
+  li {
+    &::before {
+      content: none;
+    }
+  }
+}
+
+%li-style {
+  border-bottom: none;
+  &:hover {
+    color: $accent;
+  }
+}
+
+.widgets-area {
+  text-align: center;
+  list-style: none;
+
+
+
+  @extend %no-bullets;
+  .widget-area {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-between;
+    word-break: break-word;
+
+    @include query-below($small) {
+      flex-direction: column;
+    }
+    .widget {
+      flex-basis: 30%;
+      padding: 10px 60px;
+
+
+      ul {
+        padding-left: 0px;
+      }
+
+    }
+  }
+  #footer-sidebar {
+    @extend %header;
+    .widget_nav_menu {
+      .menu-main-menu-container {
+        ul.menu {
+          margin: 0 auto;
+
+          li.menu-item a {
+            @extend %li-style;
+          }
+        }
+      }
+    }
+    .widget_recent_comments {
+      ul {
+        margin-bottom: 0px;
+        li.recentcomments {
+          a {
+            @extend %li-style;
+          }
+        }
+      }
+    }
+    .widget_pages {
+      ul {
+        li {
+          a {
+            @extend %li-style;
+          }
+        }
+      }
+    }
+    .widget_calendar {
+      #calendar_wrap {
+        #wp-calendar {
+          background-color: $lightest;
+          min-width: 250px;
+          margin: 0 auto;
+          caption {
+            color: $black;
+            font-size: 15px;
+          }
+          thead {
+            color: $dark;
+          }
+          tbody {
+            tr {
+              td {
+                padding-left: 5px;
+                a {
+                  color: $accent;
+                  @extend %li-style;
+                }
+              }
+            }
+          }
+          tfoot {
+            display: none;
+            tr {
+              td {
+                .pad {
+                  color: $dark;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .widget_meta {
+      ul {
+        margin: 0 auto;
+        @extend %no-bullets;
+        li {
+          a {
+            @extend %li-style;
+            abbr[title] {
+              color: $black;
+              @extend %li-style;
+            }
+          }
+        }
+      }
+    }
+    .widget_recent_entries {
+      ul {
+        margin: 0 auto;
+        @extend %no-bullets;
+        li {
+          a {
+            @extend %li-style;
+          }
+          span.post-date {
+            background-color: $lightest;
+          }
+        }
+      }
+    }
+    .widget_rss {
+      h2 {
+        a {
+          @extend %li-style;
+        }
+      }
+      ul {
+        margin: 0 auto;
+        li {
+          margin-bottom: 5px;
+          background-color: $lightest;
+          a {
+            color: $black;
+            @extend %li-style;
+          }
+        }
+      }
+    }
+    .widget_tag_cloud {
+      .tagcloud {
+        a {
+          background-color: $lightest;
+          @extend %li-style;
+        }
+      }
+    }
+  }
+}
+
+.posts-navigation {
+  display:inline-block;
+}

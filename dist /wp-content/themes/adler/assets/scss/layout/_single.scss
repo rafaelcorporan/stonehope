@@ -1,0 +1,32 @@
+.single {
+  .has-thumbnail, .no-thumbnail {
+    .post {
+      background-color: transparent;
+    }
+  }
+  .no-thumbnail {
+    .header-content {
+      .hero__meta {
+        display: none;
+      }
+    }
+  }
+  .post {
+    .entry-wrapper {
+      margin-bottom: 40px;
+      .entry-footer {
+
+          span {
+            @include query-below($tiny) {
+            display: block;
+              width: 100%;
+              margin-bottom: 5px;
+          }
+        }
+        .tags-links {
+          float: right;
+        }
+      }
+    }
+  }
+}

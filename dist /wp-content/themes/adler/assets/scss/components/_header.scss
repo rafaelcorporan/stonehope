@@ -1,0 +1,391 @@
+.site-header {
+  width: 99%;
+  height: 80px;
+  margin-bottom: 20px;
+  padding: 20px 40px;
+  position: absolute;
+  z-index: 50;
+  top: 0;
+  left: 0;
+
+  @include query-below($lap) {
+    width: 100%;
+  }
+  .nav--toolbar a:before {
+    @include query-below($lap) {
+      color: $dark;
+    }
+  }
+}
+.no-thumbnail {
+
+  .site-header {
+    background-color: transparent;
+    border-bottom: none;
+    position: relative;
+
+
+    a {
+      border-bottom: none;
+      @extend %gama;
+      }
+  }
+
+  .site-branding {
+
+    @extend %logo-settings;
+
+    @extend %logo-settings-mobile;
+
+    .site-title {
+
+        color: $dark;
+
+    }
+
+  }
+
+  .main-navigation {
+
+    .menu {
+
+      li {
+          a {
+            color: $dark;
+          }
+      }
+
+    }
+
+  }
+ .nav--toolbar a:before {
+   color: $dark;
+ }
+}
+
+button {
+  &:focus {
+    outline: none !important;
+  }
+}
+
+.main-navigation {
+  width: 80%;
+  float: right;
+  text-align: right;
+
+  .menu-toggle {
+    display: none;
+    font-family: 'FontAwesome';
+    color: #0E3650;
+
+    @include query-below ($lap) {
+      position: absolute;
+      right: 35px;
+      display: block;
+      background-color: transparent;
+      border: none;
+      font-size: 20px;
+      z-index: 2;
+
+      &::after {
+        content:"\f0c9";
+        width:100%;
+        height:100%;
+        background-color: transparent;
+      }
+    }
+   &::focus {
+     border-color: none !important;
+   }
+  }
+
+  .menu {
+    li {
+      display: inline-block;
+      margin-right: 10px;
+
+      &:before {
+        content: "";
+      }
+
+      a {
+
+        @include query-below($lap){
+          color: $dark;
+          display: inline-block;
+        }
+
+        color: $lightest;
+        text-decoration: none;
+        @extend %gama;
+        border-bottom-width: 0px;
+        border-bottom-color: $accent;
+        border-bottom-style: solid;
+        &:hover {
+          border-bottom-width: 3px;
+        }
+      }
+    }
+  }
+}
+
+.site-branding {
+  position: relative;
+  float: left;
+  width: 20%;
+  text-align: left;
+  margin-top: 10px;
+
+  @extend %logo-settings;
+
+  @extend %logo-settings-mobile;
+
+  .site-title {
+    font-size: 14px;
+    line-height: 1;
+    margin-bottom: 0;
+    text-align: left;
+  }
+
+  .no-site-title {
+    display: none;
+  }
+
+  .site-title {
+    text-decoration: none;
+    border-bottom: 0;
+    color: $lightest ;
+    @extend %gama;
+  }
+}
+
+.header-content {
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin: auto;
+
+  .hero__title {
+    position: relative;
+  }
+}
+
+/*------------------------------------*\
+    $CLEARFIX
+\*------------------------------------*/
+/**
+ * Micro clearfix, as per: css-101.org/articles/clearfix/latest-new-clearfix-so-far.php
+ * Extend the clearfix class with Sass to avoid the `.cf` class appearing over
+ * and over in your markup.
+ */
+.cf {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+.nav {
+  list-style: none;
+  margin-left: 0;
+  @extend .cf;
+
+  > li {
+
+    &,
+    > a {
+      display: inline-block;
+      *display: inline;
+      zoom: 1;
+    }
+  }
+}
+
+/**
+ * `.nav--stacked` extends `.nav` and throws the list into vertical mode, e.g.:
+ *
+   <ul class="nav  nav--stacked">
+       <li><a href=#>Home</a></li>
+       <li><a href=#>About</a></li>
+       <li><a href=#>Portfolio</a></li>
+       <li><a href=#>Contact</a></li>
+   </ul>
+ *
+ */
+.nav--stacked {
+
+  > li {
+    display: list-item;
+
+    > a {
+      display: block;
+    }
+  }
+}
+
+/*----------------------------------------*\
+    $SUBMENUS
+\*----------------------------------------*/
+
+/*ul*/
+.sub-menu, .children {
+  @extend .nav;
+  @extend .nav--stacked;
+
+  position: absolute;
+  top: 100%;
+  left: 50%;
+
+  display: none;
+  min-width: 200px;
+
+  text-align: center;
+
+  background: transparent;
+  transform: translateX(-50%);
+
+  @include query-above($lap) {
+    transform: translateX(-55%);
+  }
+  @include query-below($lap){
+    position: relative;
+    top: 100%;
+    left: 51%;
+    padding-left: 10px;
+    z-index: 1;
+    background-color: #FFF;
+    width: 100%;
+    display:block;
+    margin-bottom: 0;
+  }
+
+  .lt-ie9 & {
+    left: 0;
+    transform: none;
+  }
+
+  .main-navigation & li:before {
+    content: none;
+  }
+
+  a {
+    //padding: $_u2;
+  }
+
+  .menu-item-has-children, .page_item_has_children {
+    position: relative;
+
+    &:after {
+      right: 10%;
+
+      @include query-below($lap){
+        color: #0E3650;
+        display: block;
+        right: 10%;
+
+      }
+
+      transform: rotate(-45deg);
+    }
+    .sub-menu {
+      .menu-item {
+        @include query-below($lap) {
+          font-size: 10px;
+        }
+      }
+    }
+    @include query-below($lap){
+      font-size: 10px;
+    }
+  }
+
+
+  .sub-menu {
+    left: 0;
+    top: 100%;
+    @include query-above($lap) {
+      transform: translateX(-36%);
+    }
+  }
+}
+
+.menu-item-has-children, .page_item_has_children {
+  position: relative;
+  margin-right: 20px;
+
+  &:hover:after {
+    border-color: $accent;
+  }
+
+  &:after {
+    content: "";
+
+    position: absolute;
+    top: 50%;
+    right: -10px;
+
+    display: inline-block;
+
+    width: 5px;
+    height: 5px;
+
+    border-right: 1px solid $white;
+    border-bottom: 1px solid $white;
+
+    transform: translateY(-50%) rotate(45deg);
+  }
+
+  &:hover > .sub-menu, &:hover > .children  {
+    display: block;
+  }
+
+  .sub-menu {
+    @include query-below($lap) {
+      left: 50%;
+    }
+  }
+}
+
+  #primary-menu {
+    @include query-below($lap) {
+
+      display: none;
+    }
+  }
+
+  .main-menu-container{
+    display:block;
+
+      &.padding--fix {
+        padding-top: 35px;
+      }
+
+    @include query-below($lap) {
+      background-color: #FFFFFF;
+      width: 100% !important;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+    }
+
+  }
+  #site-navigation {
+
+    &.toggled {
+
+      #primary-menu li {
+        display: block;
+
+      }
+      #primary-menu {
+        display: block;
+        padding-top: 45px !important;
+        height: 80% !important;
+        margin-right: 15px;
+        text-align: center;
+      }
+    }
+  }

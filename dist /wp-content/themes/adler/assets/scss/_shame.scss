@@ -1,0 +1,16 @@
+.skip-link {
+  display: none;
+}
+
+.screen-reader-text {
+	position:absolute;
+	left:-1000em;
+}
+
+#page {
+  position: relative;
+}
+
+.edit-link > a {
+  float: right;
+}

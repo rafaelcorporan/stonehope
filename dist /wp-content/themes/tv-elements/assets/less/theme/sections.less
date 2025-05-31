@@ -1,0 +1,178 @@
+/* Module Sections Content
+----------------------------------------------- */
+
+.banner {
+	position: relative;
+	overflow: hidden;
+
+	.poster {
+		position: relative;
+		z-index: -2;
+		max-width: none;
+		width: 200%;
+		height: auto;
+		margin-left: -50%;
+	}
+	
+	.graphic-wrap {
+		position: absolute;
+		top: 35%;
+		width: 100%;
+		text-align: center;
+
+		img {
+			max-width: 75%;
+			height: auto;
+		}
+	}
+}
+
+.section {
+
+	&.posts {
+		overflow: hidden;
+	}
+
+	.view-more {
+
+		h6 {
+			display: inline-block;
+		}
+
+		.more {
+			.playfair();
+			letter-spacing: 1px;
+			font-style: italic;
+			float: right;
+			line-height: 32px;
+			text-transform: lowercase;
+			font-size: 16px;
+
+			&:hover {
+				color: @white;
+			}
+		}
+	}
+}
+
+.item-filter {
+	margin-bottom: 15px;
+
+	ul {
+
+		li {
+			display: inline-block;
+			margin: 5px;
+
+			a {
+				color: @white;
+				display: block;
+				cursor: pointer;
+
+				h5 {
+					font-size: 16px;
+					line-height: 28px;
+					color: @white;
+					display: inline;
+					.transition(color 0.25s);
+				}
+
+				&:hover {
+
+					h5 {
+						color: @tan-dark;
+					}
+				}
+			}
+		}
+	}
+}
+
+.item-wrapper {
+	padding: 20px 0 60px;
+	float: left;
+	width: 100%;
+	min-width: 100%;
+	margin-left: 0;
+	margin-right: 0;
+
+	.lato();
+
+	.item {
+		margin: 10px 0 40px;
+	}
+
+	.section-thumb {
+
+		a {
+			overflow: hidden;
+			position: relative;
+			display: block;
+
+			&:hover {
+
+				.figure {
+					width: 90%;
+					height: 90%;
+					top: 5%;
+					left: 5%;
+				}
+
+				.icon {
+					.opacity(1);
+				}
+			}
+		}
+
+		.figure {
+			.transition( all 0.5s );
+			position: absolute;
+			border: 2px solid #ffffff;
+			width: 110%;
+			height: 110%;
+			top: -5%;
+			left: -5%;
+		}
+		
+		img {
+			position: relative;
+			width: 100%;
+			height: auto;
+			display: block;
+		}
+
+		.icon {
+			position: absolute;
+			width: 64px;
+			height: 64px;
+			top: 50%;
+			left: 50%;
+			margin-left: -32px;
+			margin-top: -32px;
+			fill: @white;
+			.transition(opacity 0.25s);
+			.opacity(0.60);
+		}
+	}
+
+	.section-title {
+		font-size: 12px;
+		text-transform: uppercase;
+		margin-top: 15px;
+
+		a {
+			font-weight: 700;
+			display: block;
+			margin: 5px 0 8px;
+			color: @tan-dark;
+
+			&:hover {
+				color: @tan;
+			}
+		}
+	}
+
+	.section-excerpt {
+		font-size: 14px;
+	}
+}

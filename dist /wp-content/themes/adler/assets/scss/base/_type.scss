@@ -1,0 +1,157 @@
+// #TYPOGRAPHY
+
+%alpha {
+  font-family: 'Droid Serif', serif;
+}
+
+%beta {
+  font-family: 'Permanent Marker', cursive;
+}
+
+%gama {
+  font-family: 'Droid Sans Mono', serif;
+}
+
+/* General */
+
+html {
+  font-size: percentage($base-font-size / 16px);
+  line-height: $base-line-height / $base-font-size;
+}
+
+body {
+  @extend %gama;
+  color: $gray;
+}
+
+%hyphening {
+  -ms-word-break: break-all;
+  word-break: break-all;
+  word-break: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+}
+div {
+}
+/* Links */
+
+%link {
+  border-bottom: 3px solid $accent;
+}
+
+a {
+  text-decoration: none;
+  color: currentColor;
+  @extend %link;
+  transition: all 0.2s;
+}
+
+/* Headings */
+
+h1, %h1, h2, %h2, h3, %h3, h4, %h4, h5, %h5, h6 {
+  color: $dark;
+  font-weight: bold;
+  text-align: center;
+  @extend %alpha;
+}
+
+%marginheader { margin-bottom: 20px; }
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+  color: $dark;
+  margin-bottom: 50px;
+}
+
+h2 {
+  font-size: 20px;
+  @extend %marginheader;
+}
+
+h3 {
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+h4 {
+  font-size: 13px;
+  @extend %marginheader;
+}
+
+/* Paragraphs */
+
+p {
+  margin-top: 0;
+  margin-bottom: 40px;
+  //@extend %hyphening;
+}
+
+b,
+strong {
+  font-weight: 800;
+  color: $black;
+}
+
+/* Lists */
+
+ul {
+  list-style: none;
+  padding-left: 40px;
+}
+
+ol {
+  padding-left: 30px;
+}
+
+ul, ol {
+  margin-bottom: 40px;
+}
+
+ul li:before {
+  //content: "•";
+  font-size: 60%;
+  padding-right: 10px;
+}
+
+li {
+  font-size: 13px;
+  line-height: 2.692;
+}
+
+/* Caption */
+
+.wp-caption-text, .gallery-caption {
+  padding-top: 10px;
+  color: $caption;
+  text-align: center;
+}
+
+/* Comments */
+
+.comment-author.vcard a {
+  @extend %link;
+}
+
+.comment-metadata a {
+  border-bottom: none;
+}
+
+/* Navigation */
+
+%title-subtitle {
+  display: block;
+  clear: right;
+  line-height: 1;
+}
+
+.title {
+  @extend %alpha;
+  @extend %title-subtitle;
+}
+
+.sub-title {
+  @extend %beta;
+  @extend %title-subtitle;
+}

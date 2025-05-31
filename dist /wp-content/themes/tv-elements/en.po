@@ -1,0 +1,382 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: TV Elements\n"
+"POT-Creation-Date: 2015-01-05 09:57-0600\n"
+"PO-Revision-Date: 2015-01-05 09:57-0600\n"
+"Last-Translator: Justin Rhodes <justin@press75.com>\n"
+"Language-Team: Justin Rhodes <justin@press75.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:21
+msgid "Oh Noes"
+msgstr ""
+
+#: 404.php:23
+msgid ""
+"<h5>— We can’t seem to find the page you were looking for. Perhaps a quick "
+"look through these pages will help you find what you’re looking for: </h5>"
+msgstr ""
+
+#: comments.php:24
+#, php-format
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:34 comments.php:46
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:35 comments.php:47
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:36 comments.php:48
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:58
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:75
+msgid "Name"
+msgstr ""
+
+#: comments.php:83
+msgid "Email"
+msgstr ""
+
+#: content-none.php:11
+msgid "Nothing Found"
+msgstr ""
+
+#: content-none.php:17 parts/part-featured-post.php:36
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: content-none.php:21
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: content-none.php:26
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: content-page.php:15 content-single.php:20 content-video.php:16
+msgid "Pages:"
+msgstr ""
+
+#: content-page.php:21 content-single.php:40 image.php:53
+#: inc/template-tags.php:94 inc/template-tags.php:114
+msgid "Edit"
+msgstr ""
+
+#: content-single.php:35
+#, php-format
+msgid "This entry was posted in: %1$s"
+msgstr ""
+
+#: content-single.php:38
+#, php-format
+msgid ""
+"<span class=\"upper\">Bookmark the <a href=\"%1$s\" rel=\"bookmark"
+"\">permalink</a>.</span>"
+msgstr ""
+
+#: content.php:30
+msgid "Read More &raquo;"
+msgstr ""
+
+#: footer.php:26
+#, php-format
+msgid "Copyright %s"
+msgstr ""
+
+#: footer.php:27
+msgid "A Semantic Personal Publishing Platform"
+msgstr ""
+
+#: footer.php:28
+msgid "Press 75"
+msgstr ""
+
+#: footer.php:31
+#, php-format
+msgid "tvelements - A %s Theme by %s"
+msgstr ""
+
+#: footer.php:55
+msgid "Press75"
+msgstr ""
+
+#: functions.php:51
+msgid "Main Menu"
+msgstr ""
+
+#. translators: If there are characters in your language that are not supported
+#. by dosis, translate this to 'off'. Do not translate into your own language.
+#: functions.php:77
+msgctxt "Open Sans font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:150
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:151
+msgid "Main sidebar area displayed on right side of page via trigger."
+msgstr ""
+
+#: functions.php:160
+msgid "Footer"
+msgstr ""
+
+#: functions.php:161
+msgid "Main fppter area displayed on bottom of page via trigger."
+msgstr ""
+
+#: header.php:61
+msgid "Logo"
+msgstr ""
+
+#: image.php:31
+#, php-format
+msgid ""
+"<span class=\"attachment-meta\">Published on <time class=\"entry-date\" "
+"datetime=\"%1$s\">%2$s</time> in <a href=\"%3$s\" title=\"Return to %4$s\" "
+"rel=\"gallery\">%5$s</a></span>"
+msgstr ""
+
+#: image.php:47
+msgid "Link to full-size image"
+msgstr ""
+
+#: image.php:48
+msgid "Full resolution"
+msgstr ""
+
+#: inc/customizer.php:81
+msgid "Primary Site Color"
+msgstr ""
+
+#: inc/customizer.php:101
+msgid "Secondary Site Color"
+msgstr ""
+
+#: inc/customizer.php:121
+msgid "General Options"
+msgstr ""
+
+#: inc/customizer.php:136
+msgid "Header Color"
+msgstr ""
+
+#: inc/customizer.php:155
+msgid "Portfolio - Category"
+msgstr ""
+
+#: inc/customizer.php:171
+msgid "Default Featured Image"
+msgstr ""
+
+#: inc/customizer.php:180
+msgid "Social Icons"
+msgstr ""
+
+#: inc/customizer.php:191
+msgid "Facebook"
+msgstr ""
+
+#: inc/customizer.php:200
+msgid "Twitter"
+msgstr ""
+
+#: inc/customizer.php:209
+msgid "Linkedin"
+msgstr ""
+
+#: inc/customizer.php:218
+msgid "Google Plus"
+msgstr ""
+
+#: inc/customizer.php:227
+msgid "Tumblr"
+msgstr ""
+
+#: inc/customizer.php:236
+msgid "Instagram"
+msgstr ""
+
+#: inc/customizer.php:245
+msgid "YouTube"
+msgstr ""
+
+#: inc/customizer.php:254
+msgid "Vimeo"
+msgstr ""
+
+#: inc/customizer.php:263
+msgid "Homepage"
+msgstr ""
+
+#: inc/customizer.php:278
+msgid "Featured Post"
+msgstr ""
+
+#: inc/customizer.php:292
+msgid "Latest Posts - Category"
+msgstr ""
+
+#: inc/customizer.php:302
+msgid "Posts to Show"
+msgstr ""
+
+#: inc/customizer.php:312
+msgid "Featured Video"
+msgstr ""
+
+#: inc/customizer.php:327
+msgid "Video MP4"
+msgstr ""
+
+#: inc/customizer.php:341
+msgid "Video OGV"
+msgstr ""
+
+#: inc/customizer.php:355
+msgid "Video WebM"
+msgstr ""
+
+#: inc/customizer.php:366
+msgid "Featured Video Image"
+msgstr ""
+
+#: inc/customizer.php:381
+msgid "Featured Image Overlay"
+msgstr ""
+
+#: inc/customizer/advanced-upload-control.php:9
+msgid "Remove Image"
+msgstr ""
+
+#: inc/customizer/advanced-upload-control.php:10
+msgid "Choose an Image"
+msgstr ""
+
+#: inc/customizer/advanced-upload-control.php:11
+msgid "Set as Your Image"
+msgstr ""
+
+#: inc/customizer/advanced-upload-control.php:12
+msgid "Pick or Upload Image"
+msgstr ""
+
+#: inc/extras.php:129
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: inc/template-tags.php:19
+msgid "All categories"
+msgstr ""
+
+#: inc/template-tags.php:45
+msgid "All pages"
+msgstr ""
+
+#: inc/template-tags.php:69
+msgid "All posts"
+msgstr ""
+
+#: inc/template-tags.php:94
+msgid "Pingback:"
+msgstr ""
+
+#: inc/template-tags.php:105 inc/template-tags.php:247
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: inc/template-tags.php:111
+#, php-format
+msgctxt "1: date, 2: time"
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: inc/template-tags.php:128
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/template-tags.php:249
+msgid "404"
+msgstr ""
+
+#: inc/template-tags.php:251
+#, php-format
+msgid "<span>Tags: </span> %s"
+msgstr ""
+
+#: inc/template-tags.php:253 inc/template-tags.php:255
+#: inc/template-tags.php:257
+#, php-format
+msgid "<span>Archive For: </span> %s"
+msgstr ""
+
+#: inc/template-tags.php:259
+#, php-format
+msgid "<span>Search Results For: </span> %s"
+msgstr ""
+
+#: inc/template-tags.php:261
+#, php-format
+msgid "<span>Posts By: </span> %s"
+msgstr ""
+
+#: inc/template-tags.php:263
+msgid "<span>Browsing: </span> Blog Archives"
+msgstr ""
+
+#: parts/part-featured-post.php:34
+msgid "TV Elements"
+msgstr ""
+
+#: parts/part-single-video.php:15
+msgid ", "
+msgstr ""
+
+#: searchform.php:10
+msgid "Search &hellip;"
+msgstr ""
+
+#: searchform.php:10
+msgid "Search for:"
+msgstr ""
+
+#: sidebar.php:17
+msgid "Archives"
+msgstr ""
+
+#: sidebar.php:24
+msgid "Meta"
+msgstr ""

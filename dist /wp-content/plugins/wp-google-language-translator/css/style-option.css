@@ -1,0 +1,55 @@
+.banner_wpt{width:650px;height:auto;background:url('../images/logo.png') no-repeat;}
+.wpt_heading{width: 70%;
+margin: 0;
+float: left;
+position: relative;
+left: 22%;
+top: inherit;
+bottom: -40px;
+font-size: 22px;}
+.subs_img{width:640px;height:290px;}
+.head_title_img{width:20%; float: left;}
+.header_title_wpt{font-size:42px;color:#c7c7c7;line-height:21px;}
+.head_wpt{width:200px;}
+.heading_wpt{font-size:24px;color:rgb(60, 35, 35);}
+.heading_text{font-size:18px;color:rgb(60, 35, 35);}
+.preview{font-size:22px;color:#c7c7c7;border:1px solid #e5e5e5;}
+.postbox .inside { overflow: hidden;}
+.wpt_install{float: left; width: 48%; margin: 0;border-right: 1px solid #ccc;
+padding: 15px 15px 25px 15px;}
+.wpt_preview{ width: 48%; margin: 0; float: right;padding: 15px 5px 25px 15px;}
+.wpt_status p, .wpt_install p{font-size:18px;color:rgb(60, 35, 35);line-height: 25px;margin: 0 0 20px;}
+.wpt_preview h4{font-size:18px;color:rgb(60, 35, 35);line-height: 25px;margin: 0 0 20px;font-weight: normal;}
+.webriti-themepromo {
+background: none repeat scroll 0 0 #614711;
+border: 1px dashed rgba(0, 0, 0, 0.2);
+color: #444444;
+margin-top: 10px;
+padding: 5px 15px;
+text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+width: 97.5%;
+color: #FFFFFF;
+overflow: hidden;
+margin-right: 10px;
+margin-top: 10px;
+}
+.webriti-submenu {
+background-attachment: scroll;
+background-clip: border-box;
+background-color: transparent;
+background-color:#FDC7C7;
+background-image: -moz-linear-gradient(center top , #464646 0%, #464646 100%);
+background-origin: padding-box;
+background-position: 0 0;
+background-repeat: repeat;
+background-size: auto auto;
+border-bottom-style: solid;
+border-bottom-width: 1px;
+box-shadow: 0 2px 2px 1px rgba(0, 0, 0, 0.2) inset;
+padding-bottom: 5px;
+padding-left: 0;
+padding-right: 0;
+padding-top: 0px;
+margin-top:10px;
+}
+.webriti-submenu h2 {font-size:24px;padding:10px;margin:0px;}

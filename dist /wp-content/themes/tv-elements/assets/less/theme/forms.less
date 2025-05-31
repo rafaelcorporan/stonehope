@@ -1,0 +1,117 @@
+/* Form Styles
+----------------------------------------------- */
+
+input[type="text"],
+input[type="email"],
+input[type="search"],
+input[type="password"],
+.gform_body .gform_wrapper input[type=text], 
+.gform_body .gform_wrapper input[type=url], 
+.gform_body .gform_wrapper input[type=email], 
+.gform_body .gform_wrapper input[type=tel], 
+.gform_body .gform_wrapper input[type=number], 
+.gform_body .gform_wrapper input[type=password],
+textarea {
+	.lato();
+	font-weight: 400;
+	.border-radius(0);
+	width: 100%;
+	border: none;
+	background: @input;
+	padding: 15px !important;
+	display: block;
+	appearance: none;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	color: @tan-lightest;
+	font-size: 16px;
+}
+
+.entry-content .gform_wrapper li.gfield.gfield_error.gfield_contains_required {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+.entry-content .gform_wrapper li.gfield.gfield_error, 
+.entry-content .gform_wrapper li.gfield.gfield_error.gfield_contains_required.gfield_creditcard_warning {
+	background-color: transparent;
+	margin: 0 !important;
+	padding: 0 !important;
+	border: none !important;
+}
+
+.entry-content .gform_wrapper li.gfield.gfield_error.gfield_contains_required label.gfield_label, 
+.entry-content .gform_wrapper li.gfield.gfield_error.gfield_contains_required div.ginput_container {
+	margin-top: 0;
+}
+
+.entry-content .gform_wrapper div.validation_error,
+.entry-content .gform_wrapper .validation_message {
+	color: #c0392b;
+}
+
+.entry-content .gform_wrapper .gfield_error .gfield_label {
+	color: @white;
+}
+
+.entry-content .gform_wrapper li.gfield_error input[type=text], 
+.entry-content .gform_wrapper li.gfield_error input[type=url], 
+.entry-content .gform_wrapper li.gfield_error input[type=email], 
+.entry-content .gform_wrapper li.gfield_error input[type=tel], 
+.entry-content .gform_wrapper li.gfield_error input[type=number], 
+.entry-content .gform_wrapper li.gfield_error input[type=password], 
+.entry-content .gform_wrapper li.gfield_error textarea {
+	border: none !important;
+}
+
+label,
+.gform_wrapper .gfield_required {
+	color: @white;
+	.lato();
+}
+
+.gform_wrapper h2.gsection_title, 
+.gform_wrapper .gsection_description, 
+.gform_wrapper h3.gform_title {
+	font-size: 15px !important;
+	line-height: 32px;
+	font-weight: 700 !important;
+	.lato();
+	text-transform: uppercase;
+}
+
+select {
+	max-width: 100%;
+}
+
+textarea {
+	resize:vertical;
+}
+
+.post-password-form input[type=submit],
+.gform_button,
+.btn {
+	.playfair();
+	font-style: italic;
+	background: transparent;
+	appearance: none;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	border: none;
+	font-size: 18px;
+	padding: 8px 3px;
+	font-weight: 400;
+	cursor: pointer;
+	color: @tan-lightest;
+	border-bottom: 2px solid @tan-lightest;
+	.transition(all 0.25s);
+
+	&:hover {
+		border-color: @tan;
+		color: @tan;
+	}
+
+	&.btn-primary {
+		
+	}
+}

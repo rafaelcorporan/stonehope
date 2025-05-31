@@ -1,0 +1,88 @@
+@import "widgets";
+
+.site-footer {
+  width: 100%;
+  padding: 80px 40px 40px 40px;
+  display: inline-block;
+
+  @include query-below($small) {
+    text-align: center;
+  }
+  @include query-below($lap){
+    text-align: center;
+    float: none;
+    padding: 20px 20px 20px 20px;
+  }
+
+  a:first-child {
+    border: none;
+  }
+
+  ul.menu {
+    @include query-below($small) {
+      padding-left: 0;
+    }
+  }
+}
+
+.site-info {
+  margin-right: auto;
+  display: inline-block;
+
+}
+
+.footer-navigation {
+  float: right;
+  text-align: right;
+  @include query-below($small) {
+    text-align: center;
+    float: none;
+  }
+
+  @include query-below($lap){
+    text-align: center;
+    float: none;
+  }
+
+  .menu-toggle {
+    display: none;
+  }
+
+  .menu {
+    ul {
+      margin: 0 auto;
+    }
+
+    li {
+      display: inline-block;
+      margin-right: 10px;
+
+      &:before {
+        content: "";
+      }
+
+      &.menu-item-has-children, &.page_item_has_children {
+
+        &:after {
+          display: none;
+        }
+
+        .sub-menu, .children {
+          display: none;
+        }
+      }
+
+      a {
+        color: black;
+        text-decoration: none;
+        @extend %gama;
+        border-bottom-width: 0px;
+        border-bottom-color: $accent;
+        border-bottom-style: solid;
+        &:hover {
+          border-bottom-width: 3px;
+        }
+      }
+    }
+  }
+}
